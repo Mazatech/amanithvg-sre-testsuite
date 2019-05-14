@@ -1,0 +1,880 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AmanithVG testsuite">
+    <title>AmanithVG testsuite</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/side-menu.css">
+    <!--<![endif]-->
+    <link rel="stylesheet" href="css/layouts/report.css">
+</head>
+<body>
+<div id="layout">
+    <a href="#menu" id="menuLink" class="menu-link">
+        <span></span>
+    </a>
+    <div id="menu">
+        <div class="pure-menu">
+            <a class="pure-menu-heading" href="index.html">AmanithVG<br>Test suite</a>
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="group-005.html" class="pure-menu-link">group-005</a></li>
+                <li class="pure-menu-item"><a href="group-006.html" class="pure-menu-link">group-006</a></li>
+                <li class="pure-menu-item"><a href="group-009.html" class="pure-menu-link">group-009</a></li>
+                <li class="pure-menu-item"><a href="group-010.html" class="pure-menu-link">group-010</a></li>
+                <li class="pure-menu-item"><a href="group-011.html" class="pure-menu-link">group-011</a></li>
+                <li class="pure-menu-item"><a href="group-012.html" class="pure-menu-link">group-012</a></li>
+                <li class="pure-menu-item"><a href="group-013.html" class="pure-menu-link">group-013</a></li>
+                <li class="pure-menu-item"><a href="group-014.html" class="pure-menu-link">group-014</a></li>
+                <li class="pure-menu-item"><a href="group-015.html" class="pure-menu-link">group-015</a></li>
+                <li class="pure-menu-item"><a href="group-017.html" class="pure-menu-link">group-017</a></li>
+                <li class="pure-menu-item"><a href="group-018.html" class="pure-menu-link">group-018</a></li>
+                <li class="pure-menu-item"><a href="group-019.html" class="pure-menu-link">group-019</a></li>
+                <li class="pure-menu-item"><a href="group-020.html" class="pure-menu-link">group-020</a></li>
+                <li class="pure-menu-item"><a href="group-021.html" class="pure-menu-link">group-021</a></li>
+                <li class="pure-menu-item"><a href="group-022.html" class="pure-menu-link">group-022</a></li>
+                <li class="pure-menu-item"><a href="group-023.html" class="pure-menu-link">group-023</a></li>
+                <li class="pure-menu-item"><a href="group-025.html" class="pure-menu-link">group-025</a></li>
+                <li class="pure-menu-item"><a href="group-026.html" class="pure-menu-link">group-026</a></li>
+                <li class="pure-menu-item"><a href="group-027.html" class="pure-menu-link">group-027</a></li>
+                <li class="pure-menu-item"><a href="group-028.html" class="pure-menu-link">group-028</a></li>
+                <li class="pure-menu-item"><a href="group-030.html" class="pure-menu-link">group-030</a></li>
+                <li class="pure-menu-item"><a href="group-031.html" class="pure-menu-link">group-031</a></li>
+                <li class="pure-menu-item"><a href="group-032.html" class="pure-menu-link">group-032</a></li>
+                <li class="pure-menu-item"><a href="group-034.html" class="pure-menu-link">group-034</a></li>
+                <li class="pure-menu-item"><a href="group-035.html" class="pure-menu-link">group-035</a></li>
+                <li class="pure-menu-item"><a href="group-036.html" class="pure-menu-link">group-036</a></li>
+                <li class="pure-menu-item"><a href="group-037.html" class="pure-menu-link">group-037</a></li>
+                <li class="pure-menu-item"><a href="group-038.html" class="pure-menu-link">group-038</a></li>
+                <li class="pure-menu-item"><a href="group-039.html" class="pure-menu-link">group-039</a></li>
+                <li class="pure-menu-heading">Missing</li>
+                <li class="pure-menu-item"><a href="group-005_m.html" class="pure-menu-link">group-005_m</a></li>
+                <li class="pure-menu-item"><a href="group-011_m.html" class="pure-menu-link">group-011_m</a></li>
+                <li class="pure-menu-item"><a href="group-013_m.html" class="pure-menu-link">group-013_m</a></li>
+                <li class="pure-menu-item"><a href="group-014_m.html" class="pure-menu-link">group-014_m</a></li>
+                <li class="pure-menu-item"><a href="group-015_m.html" class="pure-menu-link">group-015_m</a></li>
+                <li class="pure-menu-item"><a href="group-016_m.html" class="pure-menu-link">group-016_m</a></li>
+                <li class="pure-menu-item"><a href="group-017_m.html" class="pure-menu-link">group-017_m</a></li>
+                <li class="pure-menu-item"><a href="group-020_m.html" class="pure-menu-link">group-020_m</a></li>
+                <li class="pure-menu-item"><a href="group-021_m.html" class="pure-menu-link">group-021_m</a></li>
+                <li class="pure-menu-item"><a href="group-022_m.html" class="pure-menu-link">group-022_m</a></li>
+                <li class="pure-menu-item"><a href="group-023_m.html" class="pure-menu-link">group-023_m</a></li>
+                <li class="pure-menu-item"><a href="group-024_m.html" class="pure-menu-link">group-024_m</a></li>
+                <li class="pure-menu-item"><a href="group-025_m.html" class="pure-menu-link">group-025_m</a></li>
+                <li class="pure-menu-item"><a href="group-026_m.html" class="pure-menu-link">group-026_m</a></li>
+                <li class="pure-menu-item"><a href="group-027_m.html" class="pure-menu-link">group-027_m</a></li>
+                <li class="pure-menu-item"><a href="group-028_m.html" class="pure-menu-link">group-028_m</a></li>
+                <li class="pure-menu-item"><a href="group-029_m.html" class="pure-menu-link">group-029_m</a></li>
+                <li class="pure-menu-item"><a href="group-030_m.html" class="pure-menu-link">group-030_m</a></li>
+                <li class="pure-menu-item"><a href="group-033_m.html" class="pure-menu-link">group-033_m</a></li>
+                <li class="pure-menu-item"><a href="group-035_m.html" class="pure-menu-link">group-035_m</a></li>
+                <li class="pure-menu-item"><a href="group-036_m.html" class="pure-menu-link">group-036_m</a></li>
+                <li class="pure-menu-item"><a href="group-037_m.html" class="pure-menu-link">group-037_m</a></li>
+                <li class="pure-menu-heading">Others</li>
+                <li class="pure-menu-item"><a href="high_differences.html" class="pure-menu-link">High diff</a></li>
+                <li class="pure-menu-item">&nbsp;</li>
+                <li class="pure-menu-item">&nbsp;</li>
+            </ul>
+        </div>
+    </div>
+    <div id="main">
+        <div class="header">
+            <h1>Test group #024-missing<br>Image drawing, multiply mode, conical gradient paint (AmanithVG only)
+</h1>
+            <h2>file automatically generated by AmanithVG testsuite</h2>
+        </div>
+        <div class="content">
+            <table class="pure-table pure-table-bordered">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Reference</th>
+                        <th>AmanithVG</th>
+                        <th>RMS</th>
+                        <th>Description</th>
+                        <th>Comment</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>240001</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240001_draw_image_multiply_congrad_Src_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240001_draw_image_multiply_congrad_Src_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_SRC blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240002</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240002_draw_image_multiply_congrad_SrcOver_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240002_draw_image_multiply_congrad_SrcOver_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_SRC_OVER blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240003</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240003_draw_image_multiply_congrad_DstOver_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240003_draw_image_multiply_congrad_DstOver_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_DST_OVER blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240004</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240004_draw_image_multiply_congrad_SrcIn_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240004_draw_image_multiply_congrad_SrcIn_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_SRC_IN blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240005</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240005_draw_image_multiply_congrad_DstIn_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240005_draw_image_multiply_congrad_DstIn_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_DST_IN blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240006</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240006_draw_image_multiply_congrad_Multiply_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240006_draw_image_multiply_congrad_Multiply_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_MULTIPLY blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240007</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240007_draw_image_multiply_congrad_Screen_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240007_draw_image_multiply_congrad_Screen_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_SCREEN blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240008</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240008_draw_image_multiply_congrad_Darken_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240008_draw_image_multiply_congrad_Darken_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_DARKEN blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240009</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240009_draw_image_multiply_congrad_Lighten_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240009_draw_image_multiply_congrad_Lighten_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_LIGHTEN blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240010</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240010_draw_image_multiply_congrad_Additive_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240010_draw_image_multiply_congrad_Additive_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_ADDITIVE blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240011</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240011_draw_image_multiply_congrad_Clear_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240011_draw_image_multiply_congrad_Clear_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_CLEAR_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240012</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240012_draw_image_multiply_congrad_Dst_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240012_draw_image_multiply_congrad_Dst_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_DST_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240013</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240013_draw_image_multiply_congrad_SrcOut_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240013_draw_image_multiply_congrad_SrcOut_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_SRC_OUT_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240014</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240014_draw_image_multiply_congrad_DstOut_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240014_draw_image_multiply_congrad_DstOut_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_DST_OUT_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240015</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240015_draw_image_multiply_congrad_SrcAtop_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240015_draw_image_multiply_congrad_SrcAtop_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_SRC_ATOP_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240016</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240016_draw_image_multiply_congrad_DstAtop_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240016_draw_image_multiply_congrad_DstAtop_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_DST_ATOP_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240017</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240017_draw_image_multiply_congrad_Xor_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240017_draw_image_multiply_congrad_Xor_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_XOR_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240018</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240018_draw_image_multiply_congrad_Overlay_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240018_draw_image_multiply_congrad_Overlay_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_OVERLAY_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240019</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240019_draw_image_multiply_congrad_ColorDodge_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240019_draw_image_multiply_congrad_ColorDodge_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_COLOR_DODGE_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240020</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240020_draw_image_multiply_congrad_ColorBurn_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240020_draw_image_multiply_congrad_ColorBurn_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_COLOR_BURN_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240021</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240021_draw_image_multiply_congrad_HardLight_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240021_draw_image_multiply_congrad_HardLight_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_HARD_LIGHT_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240022</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240022_draw_image_multiply_congrad_SoftLight_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240022_draw_image_multiply_congrad_SoftLight_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_SOFT_LIGHT_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240023</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240023_draw_image_multiply_congrad_Difference_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240023_draw_image_multiply_congrad_Difference_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_DIFFERENCE_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240024</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240024_draw_image_multiply_congrad_Exclusion_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240024_draw_image_multiply_congrad_Exclusion_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_EXCLUSION_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240025</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240025_draw_image_multiply_congrad_Src_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240025_draw_image_multiply_congrad_Src_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_SRC blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240026</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240026_draw_image_multiply_congrad_SrcOver_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240026_draw_image_multiply_congrad_SrcOver_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_SRC_OVER blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240027</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240027_draw_image_multiply_congrad_DstOver_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240027_draw_image_multiply_congrad_DstOver_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_DST_OVER blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240028</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240028_draw_image_multiply_congrad_SrcIn_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240028_draw_image_multiply_congrad_SrcIn_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_SRC_IN blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240029</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240029_draw_image_multiply_congrad_DstIn_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240029_draw_image_multiply_congrad_DstIn_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_DST_IN blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240030</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240030_draw_image_multiply_congrad_Multiply_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240030_draw_image_multiply_congrad_Multiply_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_MULTIPLY blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240031</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240031_draw_image_multiply_congrad_Screen_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240031_draw_image_multiply_congrad_Screen_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_SCREEN blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240032</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240032_draw_image_multiply_congrad_Darken_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240032_draw_image_multiply_congrad_Darken_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_DARKEN blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240033</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240033_draw_image_multiply_congrad_Lighten_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240033_draw_image_multiply_congrad_Lighten_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_LIGHTEN blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240034</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240034_draw_image_multiply_congrad_Additive_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240034_draw_image_multiply_congrad_Additive_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_ADDITIVE blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240035</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240035_draw_image_multiply_congrad_Clear_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240035_draw_image_multiply_congrad_Clear_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_CLEAR_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240036</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240036_draw_image_multiply_congrad_Dst_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240036_draw_image_multiply_congrad_Dst_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_DST_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240037</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240037_draw_image_multiply_congrad_SrcOut_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240037_draw_image_multiply_congrad_SrcOut_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_SRC_OUT_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240038</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240038_draw_image_multiply_congrad_DstOut_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240038_draw_image_multiply_congrad_DstOut_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_DST_OUT_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240039</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240039_draw_image_multiply_congrad_SrcAtop_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240039_draw_image_multiply_congrad_SrcAtop_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_SRC_ATOP_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240040</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240040_draw_image_multiply_congrad_DstAtop_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240040_draw_image_multiply_congrad_DstAtop_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_DST_ATOP_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240041</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240041_draw_image_multiply_congrad_Xor_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240041_draw_image_multiply_congrad_Xor_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_XOR_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240042</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240042_draw_image_multiply_congrad_Overlay_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240042_draw_image_multiply_congrad_Overlay_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_OVERLAY_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240043</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240043_draw_image_multiply_congrad_ColorDodge_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240043_draw_image_multiply_congrad_ColorDodge_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_COLOR_DODGE_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240044</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240044_draw_image_multiply_congrad_ColorBurn_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240044_draw_image_multiply_congrad_ColorBurn_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_COLOR_BURN_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240045</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240045_draw_image_multiply_congrad_HardLight_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240045_draw_image_multiply_congrad_HardLight_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_HARD_LIGHT_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240046</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240046_draw_image_multiply_congrad_SoftLight_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240046_draw_image_multiply_congrad_SoftLight_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_SOFT_LIGHT_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240047</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240047_draw_image_multiply_congrad_Difference_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240047_draw_image_multiply_congrad_Difference_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_DIFFERENCE_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240048</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240048_draw_image_multiply_congrad_Exclusion_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240048_draw_image_multiply_congrad_Exclusion_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_EXCLUSION_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240049</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240049_draw_image_multiply_congrad_Src_ct_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240049_draw_image_multiply_congrad_Src_ct_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_SRC blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240050</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240050_draw_image_multiply_congrad_SrcOver_ct_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240050_draw_image_multiply_congrad_SrcOver_ct_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_SRC_OVER blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240051</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240051_draw_image_multiply_congrad_DstOver_ct_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240051_draw_image_multiply_congrad_DstOver_ct_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_DST_OVER blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240052</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240052_draw_image_multiply_congrad_SrcIn_ct_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240052_draw_image_multiply_congrad_SrcIn_ct_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_SRC_IN blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240053</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240053_draw_image_multiply_congrad_DstIn_ct_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240053_draw_image_multiply_congrad_DstIn_ct_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_DST_IN blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240054</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240054_draw_image_multiply_congrad_Multiply_ct_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240054_draw_image_multiply_congrad_Multiply_ct_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_MULTIPLY blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240055</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240055_draw_image_multiply_congrad_Screen_ct_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240055_draw_image_multiply_congrad_Screen_ct_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_SCREEN blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240056</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240056_draw_image_multiply_congrad_Darken_ct_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240056_draw_image_multiply_congrad_Darken_ct_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_DARKEN blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240057</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240057_draw_image_multiply_congrad_Lighten_ct_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240057_draw_image_multiply_congrad_Lighten_ct_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_LIGHTEN blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240058</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240058_draw_image_multiply_congrad_Additive_ct_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240058_draw_image_multiply_congrad_Additive_ct_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_ADDITIVE blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240059</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240059_draw_image_multiply_congrad_Clear_ct_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240059_draw_image_multiply_congrad_Clear_ct_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_CLEAR_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240060</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240060_draw_image_multiply_congrad_Dst_ct_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240060_draw_image_multiply_congrad_Dst_ct_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_DST_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240061</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240061_draw_image_multiply_congrad_SrcOut_ct_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240061_draw_image_multiply_congrad_SrcOut_ct_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_SRC_OUT_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240062</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240062_draw_image_multiply_congrad_DstOut_ct_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240062_draw_image_multiply_congrad_DstOut_ct_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_DST_OUT_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240063</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240063_draw_image_multiply_congrad_SrcAtop_ct_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240063_draw_image_multiply_congrad_SrcAtop_ct_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_SRC_ATOP_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240064</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240064_draw_image_multiply_congrad_DstAtop_ct_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240064_draw_image_multiply_congrad_DstAtop_ct_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_DST_ATOP_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240065</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240065_draw_image_multiply_congrad_Xor_ct_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240065_draw_image_multiply_congrad_Xor_ct_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_XOR_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240066</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240066_draw_image_multiply_congrad_Overlay_ct_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240066_draw_image_multiply_congrad_Overlay_ct_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_OVERLAY_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240067</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240067_draw_image_multiply_congrad_ColorDodge_ct_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240067_draw_image_multiply_congrad_ColorDodge_ct_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_COLOR_DODGE_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240068</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240068_draw_image_multiply_congrad_ColorBurn_ct_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240068_draw_image_multiply_congrad_ColorBurn_ct_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_COLOR_BURN_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240069</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240069_draw_image_multiply_congrad_HardLight_ct_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240069_draw_image_multiply_congrad_HardLight_ct_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_HARD_LIGHT_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240070</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240070_draw_image_multiply_congrad_SoftLight_ct_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240070_draw_image_multiply_congrad_SoftLight_ct_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_SOFT_LIGHT_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240071</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240071_draw_image_multiply_congrad_Difference_ct_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240071_draw_image_multiply_congrad_Difference_ct_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_DIFFERENCE_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240072</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240072_draw_image_multiply_congrad_Exclusion_ct_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240072_draw_image_multiply_congrad_Exclusion_ct_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_EXCLUSION_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240073</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240073_draw_image_multiply_congrad_Src_ct_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240073_draw_image_multiply_congrad_Src_ct_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_SRC blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240074</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240074_draw_image_multiply_congrad_SrcOver_ct_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240074_draw_image_multiply_congrad_SrcOver_ct_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_SRC_OVER blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240075</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240075_draw_image_multiply_congrad_DstOver_ct_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240075_draw_image_multiply_congrad_DstOver_ct_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_DST_OVER blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240076</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240076_draw_image_multiply_congrad_SrcIn_ct_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240076_draw_image_multiply_congrad_SrcIn_ct_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_SRC_IN blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240077</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240077_draw_image_multiply_congrad_DstIn_ct_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240077_draw_image_multiply_congrad_DstIn_ct_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_DST_IN blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240078</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240078_draw_image_multiply_congrad_Multiply_ct_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240078_draw_image_multiply_congrad_Multiply_ct_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_MULTIPLY blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240079</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240079_draw_image_multiply_congrad_Screen_ct_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240079_draw_image_multiply_congrad_Screen_ct_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_SCREEN blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240080</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240080_draw_image_multiply_congrad_Darken_ct_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240080_draw_image_multiply_congrad_Darken_ct_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_DARKEN blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240081</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240081_draw_image_multiply_congrad_Lighten_ct_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240081_draw_image_multiply_congrad_Lighten_ct_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_LIGHTEN blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240082</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240082_draw_image_multiply_congrad_Additive_ct_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240082_draw_image_multiply_congrad_Additive_ct_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_ADDITIVE blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240083</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240083_draw_image_multiply_congrad_Clear_ct_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240083_draw_image_multiply_congrad_Clear_ct_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_CLEAR_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240084</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240084_draw_image_multiply_congrad_Dst_ct_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240084_draw_image_multiply_congrad_Dst_ct_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_DST_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240085</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240085_draw_image_multiply_congrad_SrcOut_ct_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240085_draw_image_multiply_congrad_SrcOut_ct_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_SRC_OUT_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240086</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240086_draw_image_multiply_congrad_DstOut_ct_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240086_draw_image_multiply_congrad_DstOut_ct_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_DST_OUT_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240087</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240087_draw_image_multiply_congrad_SrcAtop_ct_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240087_draw_image_multiply_congrad_SrcAtop_ct_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_SRC_ATOP_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240088</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240088_draw_image_multiply_congrad_DstAtop_ct_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240088_draw_image_multiply_congrad_DstAtop_ct_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_DST_ATOP_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240089</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240089_draw_image_multiply_congrad_Xor_ct_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240089_draw_image_multiply_congrad_Xor_ct_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_XOR_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240090</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240090_draw_image_multiply_congrad_Overlay_ct_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240090_draw_image_multiply_congrad_Overlay_ct_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_OVERLAY_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240091</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240091_draw_image_multiply_congrad_ColorDodge_ct_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240091_draw_image_multiply_congrad_ColorDodge_ct_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_COLOR_DODGE_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240092</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240092_draw_image_multiply_congrad_ColorBurn_ct_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240092_draw_image_multiply_congrad_ColorBurn_ct_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_COLOR_BURN_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240093</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240093_draw_image_multiply_congrad_HardLight_ct_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240093_draw_image_multiply_congrad_HardLight_ct_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_HARD_LIGHT_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240094</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240094_draw_image_multiply_congrad_SoftLight_ct_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240094_draw_image_multiply_congrad_SoftLight_ct_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_SOFT_LIGHT_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240095</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240095_draw_image_multiply_congrad_Difference_ct_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240095_draw_image_multiply_congrad_Difference_ct_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_DIFFERENCE_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>240096</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\240096_draw_image_multiply_congrad_Exclusion_ct_mask_affine.png" target="_blank"><img src=".\x86_64\sre\standalone\png\240096_draw_image_multiply_congrad_Exclusion_ct_mask_affine.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawImage in VG_DRAW_IMAGE_MULTIPLY mode, VG_PAINT_TYPE_CONICAL_GRADIENT_MZT paint, VG_BLEND_EXCLUSION_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div id="footer">(C) 2004-2019 Mazatech, Srl - VAT ID IT03498460405 - All rights reserved</div>
+<script src="js/ui.js"></script>
+</body>
+</html>

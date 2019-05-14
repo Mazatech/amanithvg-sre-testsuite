@@ -1,0 +1,840 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AmanithVG testsuite">
+    <title>AmanithVG testsuite</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/side-menu.css">
+    <!--<![endif]-->
+    <link rel="stylesheet" href="css/layouts/report.css">
+</head>
+<body>
+<div id="layout">
+    <a href="#menu" id="menuLink" class="menu-link">
+        <span></span>
+    </a>
+    <div id="menu">
+        <div class="pure-menu">
+            <a class="pure-menu-heading" href="index.html">AmanithVG<br>Test suite</a>
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="group-005.html" class="pure-menu-link">group-005</a></li>
+                <li class="pure-menu-item"><a href="group-006.html" class="pure-menu-link">group-006</a></li>
+                <li class="pure-menu-item"><a href="group-009.html" class="pure-menu-link">group-009</a></li>
+                <li class="pure-menu-item"><a href="group-010.html" class="pure-menu-link">group-010</a></li>
+                <li class="pure-menu-item"><a href="group-011.html" class="pure-menu-link">group-011</a></li>
+                <li class="pure-menu-item"><a href="group-012.html" class="pure-menu-link">group-012</a></li>
+                <li class="pure-menu-item"><a href="group-013.html" class="pure-menu-link">group-013</a></li>
+                <li class="pure-menu-item"><a href="group-014.html" class="pure-menu-link">group-014</a></li>
+                <li class="pure-menu-item"><a href="group-015.html" class="pure-menu-link">group-015</a></li>
+                <li class="pure-menu-item"><a href="group-017.html" class="pure-menu-link">group-017</a></li>
+                <li class="pure-menu-item"><a href="group-018.html" class="pure-menu-link">group-018</a></li>
+                <li class="pure-menu-item"><a href="group-019.html" class="pure-menu-link">group-019</a></li>
+                <li class="pure-menu-item"><a href="group-020.html" class="pure-menu-link">group-020</a></li>
+                <li class="pure-menu-item"><a href="group-021.html" class="pure-menu-link">group-021</a></li>
+                <li class="pure-menu-item"><a href="group-022.html" class="pure-menu-link">group-022</a></li>
+                <li class="pure-menu-item"><a href="group-023.html" class="pure-menu-link">group-023</a></li>
+                <li class="pure-menu-item"><a href="group-025.html" class="pure-menu-link">group-025</a></li>
+                <li class="pure-menu-item"><a href="group-026.html" class="pure-menu-link">group-026</a></li>
+                <li class="pure-menu-item"><a href="group-027.html" class="pure-menu-link">group-027</a></li>
+                <li class="pure-menu-item"><a href="group-028.html" class="pure-menu-link">group-028</a></li>
+                <li class="pure-menu-item"><a href="group-030.html" class="pure-menu-link">group-030</a></li>
+                <li class="pure-menu-item"><a href="group-031.html" class="pure-menu-link">group-031</a></li>
+                <li class="pure-menu-item"><a href="group-032.html" class="pure-menu-link">group-032</a></li>
+                <li class="pure-menu-item"><a href="group-034.html" class="pure-menu-link">group-034</a></li>
+                <li class="pure-menu-item"><a href="group-035.html" class="pure-menu-link">group-035</a></li>
+                <li class="pure-menu-item"><a href="group-036.html" class="pure-menu-link">group-036</a></li>
+                <li class="pure-menu-item"><a href="group-037.html" class="pure-menu-link">group-037</a></li>
+                <li class="pure-menu-item"><a href="group-038.html" class="pure-menu-link">group-038</a></li>
+                <li class="pure-menu-item"><a href="group-039.html" class="pure-menu-link">group-039</a></li>
+                <li class="pure-menu-heading">Missing</li>
+                <li class="pure-menu-item"><a href="group-005_m.html" class="pure-menu-link">group-005_m</a></li>
+                <li class="pure-menu-item"><a href="group-011_m.html" class="pure-menu-link">group-011_m</a></li>
+                <li class="pure-menu-item"><a href="group-013_m.html" class="pure-menu-link">group-013_m</a></li>
+                <li class="pure-menu-item"><a href="group-014_m.html" class="pure-menu-link">group-014_m</a></li>
+                <li class="pure-menu-item"><a href="group-015_m.html" class="pure-menu-link">group-015_m</a></li>
+                <li class="pure-menu-item"><a href="group-016_m.html" class="pure-menu-link">group-016_m</a></li>
+                <li class="pure-menu-item"><a href="group-017_m.html" class="pure-menu-link">group-017_m</a></li>
+                <li class="pure-menu-item"><a href="group-020_m.html" class="pure-menu-link">group-020_m</a></li>
+                <li class="pure-menu-item"><a href="group-021_m.html" class="pure-menu-link">group-021_m</a></li>
+                <li class="pure-menu-item"><a href="group-022_m.html" class="pure-menu-link">group-022_m</a></li>
+                <li class="pure-menu-item"><a href="group-023_m.html" class="pure-menu-link">group-023_m</a></li>
+                <li class="pure-menu-item"><a href="group-024_m.html" class="pure-menu-link">group-024_m</a></li>
+                <li class="pure-menu-item"><a href="group-025_m.html" class="pure-menu-link">group-025_m</a></li>
+                <li class="pure-menu-item"><a href="group-026_m.html" class="pure-menu-link">group-026_m</a></li>
+                <li class="pure-menu-item"><a href="group-027_m.html" class="pure-menu-link">group-027_m</a></li>
+                <li class="pure-menu-item"><a href="group-028_m.html" class="pure-menu-link">group-028_m</a></li>
+                <li class="pure-menu-item"><a href="group-029_m.html" class="pure-menu-link">group-029_m</a></li>
+                <li class="pure-menu-item"><a href="group-030_m.html" class="pure-menu-link">group-030_m</a></li>
+                <li class="pure-menu-item"><a href="group-033_m.html" class="pure-menu-link">group-033_m</a></li>
+                <li class="pure-menu-item"><a href="group-035_m.html" class="pure-menu-link">group-035_m</a></li>
+                <li class="pure-menu-item"><a href="group-036_m.html" class="pure-menu-link">group-036_m</a></li>
+                <li class="pure-menu-item"><a href="group-037_m.html" class="pure-menu-link">group-037_m</a></li>
+                <li class="pure-menu-heading">Others</li>
+                <li class="pure-menu-item"><a href="high_differences.html" class="pure-menu-link">High diff</a></li>
+                <li class="pure-menu-item">&nbsp;</li>
+                <li class="pure-menu-item">&nbsp;</li>
+            </ul>
+        </div>
+    </div>
+    <div id="main">
+        <div class="header">
+            <h1>Test group #035<br>Gradients and color ramps
+</h1>
+            <h2>file automatically generated by AmanithVG testsuite</h2>
+        </div>
+        <div class="content">
+            <table class="pure-table pure-table-bordered">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Reference</th>
+                        <th>AmanithVG</th>
+                        <th>RMS</th>
+                        <th>Description</th>
+                        <th>Comment</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>350001</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350001_draw_gradients_integer_stops.png" target="_blank"><img src=".\x86\ri\png\350001_draw_gradients_integer_stops.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350001_draw_gradients_integer_stops.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350001_draw_gradients_integer_stops.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test color gradient by specifying, through vgSetParameteriv, integer color stops (i.e. stops whose values are integer numbers); alpha-premultiplied drawing surface</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>350002</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350002_draw_gradients_unpre_colramp_pad_00.png" target="_blank"><img src=".\x86\ri\png\350002_draw_gradients_unpre_colramp_pad_00.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350002_draw_gradients_unpre_colramp_pad_00.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350002_draw_gradients_unpre_colramp_pad_00.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_PAD spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a NULL VG_PAINT_COLOR_RAMP_STOPS array, so according to OpenVG specifications, two implicit color stops are added: an opaque black at offset 0 and an opaque white at offset 1</td>
+                    </tr>
+                    <tr>
+                        <td>350003</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350003_draw_gradients_unpre_colramp_pad_01.png" target="_blank"><img src=".\x86\ri\png\350003_draw_gradients_unpre_colramp_pad_01.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350003_draw_gradients_unpre_colramp_pad_01.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350003_draw_gradients_unpre_colramp_pad_01.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_PAD spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets an unordered sequence of color stops, so according to OpenVG specifications the entire sequence is ignored and two implicit color stops are added: an opaque black at offset 0 and an opaque white at offset 1</td>
+                    </tr>
+                    <tr>
+                        <td>350004</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350004_draw_gradients_unpre_colramp_pad_02.png" target="_blank"><img src=".\x86\ri\png\350004_draw_gradients_unpre_colramp_pad_02.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350004_draw_gradients_unpre_colramp_pad_02.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350004_draw_gradients_unpre_colramp_pad_02.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_PAD spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array, but a color stop at offset 0 is missing, so according to OpenVG specifications an implicit stop is added with an offset of 0 and the same color as the first defined stop</td>
+                    </tr>
+                    <tr>
+                        <td>350005</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350005_draw_gradients_unpre_colramp_pad_03.png" target="_blank"><img src=".\x86\ri\png\350005_draw_gradients_unpre_colramp_pad_03.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350005_draw_gradients_unpre_colramp_pad_03.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350005_draw_gradients_unpre_colramp_pad_03.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_PAD spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array, but a color stop at offset 1 is missing, so according to OpenVG specifications an implicit stop is added with an offset of 1 and the same color as the last defined stop</td>
+                    </tr>
+                    <tr>
+                        <td>350006</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350006_draw_gradients_unpre_colramp_pad_04.png" target="_blank"><img src=".\x86\ri\png\350006_draw_gradients_unpre_colramp_pad_04.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350006_draw_gradients_unpre_colramp_pad_04.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350006_draw_gradients_unpre_colramp_pad_04.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_PAD spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a VG_PAINT_COLOR_RAMP_STOPS array made of four entries: the first two stops have the same offset 0, the last two stops have the same offset 1</td>
+                    </tr>
+                    <tr>
+                        <td>350007</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350007_draw_gradients_unpre_colramp_pad_05.png" target="_blank"><img src=".\x86\ri\png\350007_draw_gradients_unpre_colramp_pad_05.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350007_draw_gradients_unpre_colramp_pad_05.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350007_draw_gradients_unpre_colramp_pad_05.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_PAD spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array made of five entries, with the first and last stops having an alpha value of zero</td>
+                    </tr>
+                    <tr>
+                        <td>350008</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350008_draw_gradients_unpre_colramp_pad_06.png" target="_blank"><img src=".\x86\ri\png\350008_draw_gradients_unpre_colramp_pad_06.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350008_draw_gradients_unpre_colramp_pad_06.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350008_draw_gradients_unpre_colramp_pad_06.png"/></a></td>
+                        <td><h2> 98%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_PAD spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array with multiple stops having the same offset. According to OpenVG specifications it is legal to have multiple stops with the same offset value, which will result in a discontinuity in the color ramp, with the first stop with a given offset value defining the right endpoint of one interval and the last stop with the same offset value defining the left endpoint of the next interval</td>
+                    </tr>
+                    <tr>
+                        <td>350009</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350009_draw_gradients_unpre_colramp_repeat_00.png" target="_blank"><img src=".\x86\ri\png\350009_draw_gradients_unpre_colramp_repeat_00.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350009_draw_gradients_unpre_colramp_repeat_00.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350009_draw_gradients_unpre_colramp_repeat_00.png"/></a></td>
+                        <td><h2> 97%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a NULL VG_PAINT_COLOR_RAMP_STOPS array, so according to OpenVG specifications, two implicit color stops are added: an opaque black at offset 0 and an opaque white at offset 1. For this gradient in VG_COLOR_RAMP_SPREAD_REPEAT mode, at the gradient end points a sharp transition white-black is the expected behaviour; the Khronos reference implementation performs a filtering on the gradient, so at sharp transitions it shows an intermediate artifact color (a grey). This is particularly noticeable (RMS-wide) on B/W gradients</td>
+                    </tr>
+                    <tr>
+                        <td>350010</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350010_draw_gradients_unpre_colramp_repeat_01.png" target="_blank"><img src=".\x86\ri\png\350010_draw_gradients_unpre_colramp_repeat_01.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350010_draw_gradients_unpre_colramp_repeat_01.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350010_draw_gradients_unpre_colramp_repeat_01.png"/></a></td>
+                        <td><h2> 97%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets an unordered sequence of color stops, so according to OpenVG specifications the entire sequence is ignored and two implicit color stops are added: an opaque black at offset 0 and an opaque white at offset 1. For this gradient in VG_COLOR_RAMP_SPREAD_REPEAT mode, at the gradient end points a sharp transition white-black is the expected behaviour; the Khronos reference implementation performs a filtering on the gradient, so at sharp transitions it shows an intermediate artifact color (a grey). This is particularly noticeable (RMS-wide) on B/W gradients</td>
+                    </tr>
+                    <tr>
+                        <td>350011</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350011_draw_gradients_unpre_colramp_repeat_02.png" target="_blank"><img src=".\x86\ri\png\350011_draw_gradients_unpre_colramp_repeat_02.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350011_draw_gradients_unpre_colramp_repeat_02.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350011_draw_gradients_unpre_colramp_repeat_02.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array, but a color stop at offset 0 is missing, so according to OpenVG specifications an implicit stop is added with an offset of 0 and the same color as the first defined stop</td>
+                    </tr>
+                    <tr>
+                        <td>350012</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350012_draw_gradients_unpre_colramp_repeat_03.png" target="_blank"><img src=".\x86\ri\png\350012_draw_gradients_unpre_colramp_repeat_03.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350012_draw_gradients_unpre_colramp_repeat_03.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350012_draw_gradients_unpre_colramp_repeat_03.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array, but a color stop at offset 1 is missing, so according to OpenVG specifications an implicit stop is added with an offset of 1 and the same color as the last defined stop</td>
+                    </tr>
+                    <tr>
+                        <td>350013</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350013_draw_gradients_unpre_colramp_repeat_04.png" target="_blank"><img src=".\x86\ri\png\350013_draw_gradients_unpre_colramp_repeat_04.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350013_draw_gradients_unpre_colramp_repeat_04.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350013_draw_gradients_unpre_colramp_repeat_04.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a VG_PAINT_COLOR_RAMP_STOPS array made of four entries: the first two stops have the same offset 0, the last two stops have the same offset 1</td>
+                    </tr>
+                    <tr>
+                        <td>350014</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350014_draw_gradients_unpre_colramp_repeat_05.png" target="_blank"><img src=".\x86\ri\png\350014_draw_gradients_unpre_colramp_repeat_05.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350014_draw_gradients_unpre_colramp_repeat_05.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350014_draw_gradients_unpre_colramp_repeat_05.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array made of five entries, with the first and last stops having an alpha value of zero</td>
+                    </tr>
+                    <tr>
+                        <td>350015</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350015_draw_gradients_unpre_colramp_repeat_06.png" target="_blank"><img src=".\x86\ri\png\350015_draw_gradients_unpre_colramp_repeat_06.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350015_draw_gradients_unpre_colramp_repeat_06.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350015_draw_gradients_unpre_colramp_repeat_06.png"/></a></td>
+                        <td><h2> 98%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array with multiple stops having the same offset. According to OpenVG specifications it is legal to have multiple stops with the same offset value, which will result in a discontinuity in the color ramp, with the first stop with a given offset value defining the right endpoint of one interval and the last stop with the same offset value defining the left endpoint of the next interval</td>
+                    </tr>
+                    <tr>
+                        <td>350016</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350016_draw_gradients_unpre_colramp_reflect_00.png" target="_blank"><img src=".\x86\ri\png\350016_draw_gradients_unpre_colramp_reflect_00.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350016_draw_gradients_unpre_colramp_reflect_00.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350016_draw_gradients_unpre_colramp_reflect_00.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a NULL VG_PAINT_COLOR_RAMP_STOPS array, so according to OpenVG specifications, two implicit color stops are added: an opaque black at offset 0 and an opaque white at offset 1</td>
+                    </tr>
+                    <tr>
+                        <td>350017</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350017_draw_gradients_unpre_colramp_reflect_01.png" target="_blank"><img src=".\x86\ri\png\350017_draw_gradients_unpre_colramp_reflect_01.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350017_draw_gradients_unpre_colramp_reflect_01.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350017_draw_gradients_unpre_colramp_reflect_01.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets an unordered sequence of color stops, so according to OpenVG specifications the entire sequence is ignored and two implicit color stops are added: an opaque black at offset 0 and an opaque white at offset 1</td>
+                    </tr>
+                    <tr>
+                        <td>350018</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350018_draw_gradients_unpre_colramp_reflect_02.png" target="_blank"><img src=".\x86\ri\png\350018_draw_gradients_unpre_colramp_reflect_02.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350018_draw_gradients_unpre_colramp_reflect_02.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350018_draw_gradients_unpre_colramp_reflect_02.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array, but a color stop at offset 0 is missing, so according to OpenVG specifications an implicit stop is added with an offset of 0 and the same color as the first defined stop</td>
+                    </tr>
+                    <tr>
+                        <td>350019</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350019_draw_gradients_unpre_colramp_reflect_03.png" target="_blank"><img src=".\x86\ri\png\350019_draw_gradients_unpre_colramp_reflect_03.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350019_draw_gradients_unpre_colramp_reflect_03.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350019_draw_gradients_unpre_colramp_reflect_03.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array, but a color stop at offset 1 is missing, so according to OpenVG specifications an implicit stop is added with an offset of 1 and the same color as the last defined stop</td>
+                    </tr>
+                    <tr>
+                        <td>350020</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350020_draw_gradients_unpre_colramp_reflect_04.png" target="_blank"><img src=".\x86\ri\png\350020_draw_gradients_unpre_colramp_reflect_04.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350020_draw_gradients_unpre_colramp_reflect_04.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350020_draw_gradients_unpre_colramp_reflect_04.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a VG_PAINT_COLOR_RAMP_STOPS array made of four entries: the first two stops have the same offset 0, the last two stops have the same offset 1</td>
+                    </tr>
+                    <tr>
+                        <td>350021</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350021_draw_gradients_unpre_colramp_reflect_05.png" target="_blank"><img src=".\x86\ri\png\350021_draw_gradients_unpre_colramp_reflect_05.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350021_draw_gradients_unpre_colramp_reflect_05.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350021_draw_gradients_unpre_colramp_reflect_05.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array made of five entries, with the first and last stops having an alpha value of zero</td>
+                    </tr>
+                    <tr>
+                        <td>350022</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350022_draw_gradients_unpre_colramp_reflect_06.png" target="_blank"><img src=".\x86\ri\png\350022_draw_gradients_unpre_colramp_reflect_06.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350022_draw_gradients_unpre_colramp_reflect_06.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350022_draw_gradients_unpre_colramp_reflect_06.png"/></a></td>
+                        <td><h2> 98%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array with multiple stops having the same offset. According to OpenVG specifications it is legal to have multiple stops with the same offset value, which will result in a discontinuity in the color ramp, with the first stop with a given offset value defining the right endpoint of one interval and the last stop with the same offset value defining the left endpoint of the next interval</td>
+                    </tr>
+                    <tr>
+                        <td>350023</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350023_draw_gradients_pre_colramp_pad_00.png" target="_blank"><img src=".\x86\ri\png\350023_draw_gradients_pre_colramp_pad_00.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350023_draw_gradients_pre_colramp_pad_00.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350023_draw_gradients_pre_colramp_pad_00.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_PAD spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a NULL VG_PAINT_COLOR_RAMP_STOPS array, so according to OpenVG specifications, two implicit color stops are added: an opaque black at offset 0 and an opaque white at offset 1</td>
+                    </tr>
+                    <tr>
+                        <td>350024</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350024_draw_gradients_pre_colramp_pad_01.png" target="_blank"><img src=".\x86\ri\png\350024_draw_gradients_pre_colramp_pad_01.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350024_draw_gradients_pre_colramp_pad_01.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350024_draw_gradients_pre_colramp_pad_01.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_PAD spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets an unordered sequence of color stops, so according to OpenVG specifications the entire sequence is ignored and two implicit color stops are added: an opaque black at offset 0 and an opaque white at offset 1</td>
+                    </tr>
+                    <tr>
+                        <td>350025</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350025_draw_gradients_pre_colramp_pad_02.png" target="_blank"><img src=".\x86\ri\png\350025_draw_gradients_pre_colramp_pad_02.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350025_draw_gradients_pre_colramp_pad_02.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350025_draw_gradients_pre_colramp_pad_02.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_PAD spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array, but a color stop at offset 0 is missing, so according to OpenVG specifications an implicit stop is added with an offset of 0 and the same color as the first defined stop</td>
+                    </tr>
+                    <tr>
+                        <td>350026</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350026_draw_gradients_pre_colramp_pad_03.png" target="_blank"><img src=".\x86\ri\png\350026_draw_gradients_pre_colramp_pad_03.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350026_draw_gradients_pre_colramp_pad_03.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350026_draw_gradients_pre_colramp_pad_03.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_PAD spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array, but a color stop at offset 1 is missing, so according to OpenVG specifications an implicit stop is added with an offset of 1 and the same color as the last defined stop</td>
+                    </tr>
+                    <tr>
+                        <td>350027</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350027_draw_gradients_pre_colramp_pad_04.png" target="_blank"><img src=".\x86\ri\png\350027_draw_gradients_pre_colramp_pad_04.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350027_draw_gradients_pre_colramp_pad_04.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350027_draw_gradients_pre_colramp_pad_04.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_PAD spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a VG_PAINT_COLOR_RAMP_STOPS array made of four entries: the first two stops have the same offset 0, the last two stops have the same offset 1</td>
+                    </tr>
+                    <tr>
+                        <td>350028</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350028_draw_gradients_pre_colramp_pad_05.png" target="_blank"><img src=".\x86\ri\png\350028_draw_gradients_pre_colramp_pad_05.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350028_draw_gradients_pre_colramp_pad_05.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350028_draw_gradients_pre_colramp_pad_05.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_PAD spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array made of five entries, with the first and last stops having an alpha value of zero</td>
+                    </tr>
+                    <tr>
+                        <td>350029</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350029_draw_gradients_pre_colramp_pad_06.png" target="_blank"><img src=".\x86\ri\png\350029_draw_gradients_pre_colramp_pad_06.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350029_draw_gradients_pre_colramp_pad_06.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350029_draw_gradients_pre_colramp_pad_06.png"/></a></td>
+                        <td><h2> 98%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_PAD spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array with multiple stops having the same offset. According to OpenVG specifications it is legal to have multiple stops with the same offset value, which will result in a discontinuity in the color ramp, with the first stop with a given offset value defining the right endpoint of one interval and the last stop with the same offset value defining the left endpoint of the next interval</td>
+                    </tr>
+                    <tr>
+                        <td>350030</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350030_draw_gradients_pre_colramp_repeat_00.png" target="_blank"><img src=".\x86\ri\png\350030_draw_gradients_pre_colramp_repeat_00.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350030_draw_gradients_pre_colramp_repeat_00.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350030_draw_gradients_pre_colramp_repeat_00.png"/></a></td>
+                        <td><h2> 97%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a NULL VG_PAINT_COLOR_RAMP_STOPS array, so according to OpenVG specifications, two implicit color stops are added: an opaque black at offset 0 and an opaque white at offset 1. For this gradient in VG_COLOR_RAMP_SPREAD_REPEAT mode, at the gradient end points a sharp transition white-black is the expected behaviour; the Khronos reference implementation performs a filtering on the gradient, so at sharp transitions it shows an intermediate artifact color (a grey). This is particularly noticeable (RMS-wide) on B/W gradients</td>
+                    </tr>
+                    <tr>
+                        <td>350031</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350031_draw_gradients_pre_colramp_repeat_01.png" target="_blank"><img src=".\x86\ri\png\350031_draw_gradients_pre_colramp_repeat_01.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350031_draw_gradients_pre_colramp_repeat_01.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350031_draw_gradients_pre_colramp_repeat_01.png"/></a></td>
+                        <td><h2> 97%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets an unordered sequence of color stops, so according to OpenVG specifications the entire sequence is ignored and two implicit color stops are added: an opaque black at offset 0 and an opaque white at offset 1. For this gradient in VG_COLOR_RAMP_SPREAD_REPEAT mode, at the gradient end points a sharp transition white-black is the expected behaviour; the Khronos reference implementation performs a filtering on the gradient, so at sharp transitions it shows an intermediate artifact color (a grey). This is particularly noticeable (RMS-wide) on B/W gradients</td>
+                    </tr>
+                    <tr>
+                        <td>350032</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350032_draw_gradients_pre_colramp_repeat_02.png" target="_blank"><img src=".\x86\ri\png\350032_draw_gradients_pre_colramp_repeat_02.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350032_draw_gradients_pre_colramp_repeat_02.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350032_draw_gradients_pre_colramp_repeat_02.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array, but a color stop at offset 0 is missing, so according to OpenVG specifications an implicit stop is added with an offset of 0 and the same color as the first defined stop</td>
+                    </tr>
+                    <tr>
+                        <td>350033</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350033_draw_gradients_pre_colramp_repeat_03.png" target="_blank"><img src=".\x86\ri\png\350033_draw_gradients_pre_colramp_repeat_03.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350033_draw_gradients_pre_colramp_repeat_03.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350033_draw_gradients_pre_colramp_repeat_03.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array, but a color stop at offset 1 is missing, so according to OpenVG specifications an implicit stop is added with an offset of 1 and the same color as the last defined stop</td>
+                    </tr>
+                    <tr>
+                        <td>350034</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350034_draw_gradients_pre_colramp_repeat_04.png" target="_blank"><img src=".\x86\ri\png\350034_draw_gradients_pre_colramp_repeat_04.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350034_draw_gradients_pre_colramp_repeat_04.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350034_draw_gradients_pre_colramp_repeat_04.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a VG_PAINT_COLOR_RAMP_STOPS array made of four entries: the first two stops have the same offset 0, the last two stops have the same offset 1</td>
+                    </tr>
+                    <tr>
+                        <td>350035</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350035_draw_gradients_pre_colramp_repeat_05.png" target="_blank"><img src=".\x86\ri\png\350035_draw_gradients_pre_colramp_repeat_05.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350035_draw_gradients_pre_colramp_repeat_05.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350035_draw_gradients_pre_colramp_repeat_05.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array made of five entries, with the first and last stops having an alpha value of zero</td>
+                    </tr>
+                    <tr>
+                        <td>350036</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350036_draw_gradients_pre_colramp_repeat_06.png" target="_blank"><img src=".\x86\ri\png\350036_draw_gradients_pre_colramp_repeat_06.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350036_draw_gradients_pre_colramp_repeat_06.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350036_draw_gradients_pre_colramp_repeat_06.png"/></a></td>
+                        <td><h2> 98%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array with multiple stops having the same offset. According to OpenVG specifications it is legal to have multiple stops with the same offset value, which will result in a discontinuity in the color ramp, with the first stop with a given offset value defining the right endpoint of one interval and the last stop with the same offset value defining the left endpoint of the next interval</td>
+                    </tr>
+                    <tr>
+                        <td>350037</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350037_draw_gradients_pre_colramp_reflect_00.png" target="_blank"><img src=".\x86\ri\png\350037_draw_gradients_pre_colramp_reflect_00.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350037_draw_gradients_pre_colramp_reflect_00.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350037_draw_gradients_pre_colramp_reflect_00.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a NULL VG_PAINT_COLOR_RAMP_STOPS array, so according to OpenVG specifications, two implicit color stops are added: an opaque black at offset 0 and an opaque white at offset 1</td>
+                    </tr>
+                    <tr>
+                        <td>350038</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350038_draw_gradients_pre_colramp_reflect_01.png" target="_blank"><img src=".\x86\ri\png\350038_draw_gradients_pre_colramp_reflect_01.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350038_draw_gradients_pre_colramp_reflect_01.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350038_draw_gradients_pre_colramp_reflect_01.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets an unordered sequence of color stops, so according to OpenVG specifications the entire sequence is ignored and two implicit color stops are added: an opaque black at offset 0 and an opaque white at offset 1</td>
+                    </tr>
+                    <tr>
+                        <td>350039</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350039_draw_gradients_pre_colramp_reflect_02.png" target="_blank"><img src=".\x86\ri\png\350039_draw_gradients_pre_colramp_reflect_02.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350039_draw_gradients_pre_colramp_reflect_02.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350039_draw_gradients_pre_colramp_reflect_02.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array, but a color stop at offset 0 is missing, so according to OpenVG specifications an implicit stop is added with an offset of 0 and the same color as the first defined stop</td>
+                    </tr>
+                    <tr>
+                        <td>350040</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350040_draw_gradients_pre_colramp_reflect_03.png" target="_blank"><img src=".\x86\ri\png\350040_draw_gradients_pre_colramp_reflect_03.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350040_draw_gradients_pre_colramp_reflect_03.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350040_draw_gradients_pre_colramp_reflect_03.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array, but a color stop at offset 1 is missing, so according to OpenVG specifications an implicit stop is added with an offset of 1 and the same color as the last defined stop</td>
+                    </tr>
+                    <tr>
+                        <td>350041</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350041_draw_gradients_pre_colramp_reflect_04.png" target="_blank"><img src=".\x86\ri\png\350041_draw_gradients_pre_colramp_reflect_04.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350041_draw_gradients_pre_colramp_reflect_04.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350041_draw_gradients_pre_colramp_reflect_04.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a VG_PAINT_COLOR_RAMP_STOPS array made of four entries: the first two stops have the same offset 0, the last two stops have the same offset 1</td>
+                    </tr>
+                    <tr>
+                        <td>350042</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350042_draw_gradients_pre_colramp_reflect_05.png" target="_blank"><img src=".\x86\ri\png\350042_draw_gradients_pre_colramp_reflect_05.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350042_draw_gradients_pre_colramp_reflect_05.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350042_draw_gradients_pre_colramp_reflect_05.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array made of five entries, with the first and last stops having an alpha value of zero</td>
+                    </tr>
+                    <tr>
+                        <td>350043</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350043_draw_gradients_pre_colramp_reflect_06.png" target="_blank"><img src=".\x86\ri\png\350043_draw_gradients_pre_colramp_reflect_06.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350043_draw_gradients_pre_colramp_reflect_06.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350043_draw_gradients_pre_colramp_reflect_06.png"/></a></td>
+                        <td><h2> 98%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, VG_COLOR_TRANSFORM disabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array with multiple stops having the same offset. According to OpenVG specifications it is legal to have multiple stops with the same offset value, which will result in a discontinuity in the color ramp, with the first stop with a given offset value defining the right endpoint of one interval and the last stop with the same offset value defining the left endpoint of the next interval</td>
+                    </tr>
+                    <tr>
+                        <td>350044</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350044_draw_gradients_unpre_colramp_pad_00_ct.png" target="_blank"><img src=".\x86\ri\png\350044_draw_gradients_unpre_colramp_pad_00_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350044_draw_gradients_unpre_colramp_pad_00_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350044_draw_gradients_unpre_colramp_pad_00_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_PAD spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a NULL VG_PAINT_COLOR_RAMP_STOPS array, so according to OpenVG specifications, two implicit color stops are added: an opaque black at offset 0 and an opaque white at offset 1</td>
+                    </tr>
+                    <tr>
+                        <td>350045</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350045_draw_gradients_unpre_colramp_pad_01_ct.png" target="_blank"><img src=".\x86\ri\png\350045_draw_gradients_unpre_colramp_pad_01_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350045_draw_gradients_unpre_colramp_pad_01_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350045_draw_gradients_unpre_colramp_pad_01_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_PAD spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets an unordered sequence of color stops, so according to OpenVG specifications the entire sequence is ignored and two implicit color stops are added: an opaque black at offset 0 and an opaque white at offset 1</td>
+                    </tr>
+                    <tr>
+                        <td>350046</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350046_draw_gradients_unpre_colramp_pad_02_ct.png" target="_blank"><img src=".\x86\ri\png\350046_draw_gradients_unpre_colramp_pad_02_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350046_draw_gradients_unpre_colramp_pad_02_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350046_draw_gradients_unpre_colramp_pad_02_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_PAD spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array, but a color stop at offset 0 is missing, so according to OpenVG specifications an implicit stop is added with an offset of 0 and the same color as the first defined stop</td>
+                    </tr>
+                    <tr>
+                        <td>350047</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350047_draw_gradients_unpre_colramp_pad_03_ct.png" target="_blank"><img src=".\x86\ri\png\350047_draw_gradients_unpre_colramp_pad_03_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350047_draw_gradients_unpre_colramp_pad_03_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350047_draw_gradients_unpre_colramp_pad_03_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_PAD spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array, but a color stop at offset 1 is missing, so according to OpenVG specifications an implicit stop is added with an offset of 1 and the same color as the last defined stop</td>
+                    </tr>
+                    <tr>
+                        <td>350048</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350048_draw_gradients_unpre_colramp_pad_04_ct.png" target="_blank"><img src=".\x86\ri\png\350048_draw_gradients_unpre_colramp_pad_04_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350048_draw_gradients_unpre_colramp_pad_04_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350048_draw_gradients_unpre_colramp_pad_04_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_PAD spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a VG_PAINT_COLOR_RAMP_STOPS array made of four entries: the first two stops have the same offset 0, the last two stops have the same offset 1</td>
+                    </tr>
+                    <tr>
+                        <td>350049</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350049_draw_gradients_unpre_colramp_pad_05_ct.png" target="_blank"><img src=".\x86\ri\png\350049_draw_gradients_unpre_colramp_pad_05_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350049_draw_gradients_unpre_colramp_pad_05_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350049_draw_gradients_unpre_colramp_pad_05_ct.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_PAD spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array made of five entries, with the first and last stops having an alpha value of zero</td>
+                    </tr>
+                    <tr>
+                        <td>350050</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350050_draw_gradients_unpre_colramp_pad_06_ct.png" target="_blank"><img src=".\x86\ri\png\350050_draw_gradients_unpre_colramp_pad_06_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350050_draw_gradients_unpre_colramp_pad_06_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350050_draw_gradients_unpre_colramp_pad_06_ct.png"/></a></td>
+                        <td><h2> 98%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_PAD spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array with multiple stops having the same offset. According to OpenVG specifications it is legal to have multiple stops with the same offset value, which will result in a discontinuity in the color ramp, with the first stop with a given offset value defining the right endpoint of one interval and the last stop with the same offset value defining the left endpoint of the next interval</td>
+                    </tr>
+                    <tr>
+                        <td>350051</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350051_draw_gradients_unpre_colramp_repeat_00_ct.png" target="_blank"><img src=".\x86\ri\png\350051_draw_gradients_unpre_colramp_repeat_00_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350051_draw_gradients_unpre_colramp_repeat_00_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350051_draw_gradients_unpre_colramp_repeat_00_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a NULL VG_PAINT_COLOR_RAMP_STOPS array, so according to OpenVG specifications, two implicit color stops are added: an opaque black at offset 0 and an opaque white at offset 1. For this gradient in VG_COLOR_RAMP_SPREAD_REPEAT mode, at the gradient end points a sharp transition white-black is the expected behaviour; the Khronos reference implementation performs a filtering on the gradient, so at sharp transitions it shows an intermediate artifact color (a grey). This is particularly noticeable (RMS-wide) on B/W gradients</td>
+                    </tr>
+                    <tr>
+                        <td>350052</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350052_draw_gradients_unpre_colramp_repeat_01_ct.png" target="_blank"><img src=".\x86\ri\png\350052_draw_gradients_unpre_colramp_repeat_01_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350052_draw_gradients_unpre_colramp_repeat_01_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350052_draw_gradients_unpre_colramp_repeat_01_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets an unordered sequence of color stops, so according to OpenVG specifications the entire sequence is ignored and two implicit color stops are added: an opaque black at offset 0 and an opaque white at offset 1. For this gradient in VG_COLOR_RAMP_SPREAD_REPEAT mode, at the gradient end points a sharp transition white-black is the expected behaviour; the Khronos reference implementation performs a filtering on the gradient, so at sharp transitions it shows an intermediate artifact color (a grey). This is particularly noticeable (RMS-wide) on B/W gradients</td>
+                    </tr>
+                    <tr>
+                        <td>350053</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350053_draw_gradients_unpre_colramp_repeat_02_ct.png" target="_blank"><img src=".\x86\ri\png\350053_draw_gradients_unpre_colramp_repeat_02_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350053_draw_gradients_unpre_colramp_repeat_02_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350053_draw_gradients_unpre_colramp_repeat_02_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array, but a color stop at offset 0 is missing, so according to OpenVG specifications an implicit stop is added with an offset of 0 and the same color as the first defined stop</td>
+                    </tr>
+                    <tr>
+                        <td>350054</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350054_draw_gradients_unpre_colramp_repeat_03_ct.png" target="_blank"><img src=".\x86\ri\png\350054_draw_gradients_unpre_colramp_repeat_03_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350054_draw_gradients_unpre_colramp_repeat_03_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350054_draw_gradients_unpre_colramp_repeat_03_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array, but a color stop at offset 1 is missing, so according to OpenVG specifications an implicit stop is added with an offset of 1 and the same color as the last defined stop</td>
+                    </tr>
+                    <tr>
+                        <td>350055</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350055_draw_gradients_unpre_colramp_repeat_04_ct.png" target="_blank"><img src=".\x86\ri\png\350055_draw_gradients_unpre_colramp_repeat_04_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350055_draw_gradients_unpre_colramp_repeat_04_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350055_draw_gradients_unpre_colramp_repeat_04_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a VG_PAINT_COLOR_RAMP_STOPS array made of four entries: the first two stops have the same offset 0, the last two stops have the same offset 1</td>
+                    </tr>
+                    <tr>
+                        <td>350056</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350056_draw_gradients_unpre_colramp_repeat_05_ct.png" target="_blank"><img src=".\x86\ri\png\350056_draw_gradients_unpre_colramp_repeat_05_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350056_draw_gradients_unpre_colramp_repeat_05_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350056_draw_gradients_unpre_colramp_repeat_05_ct.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array made of five entries, with the first and last stops having an alpha value of zero</td>
+                    </tr>
+                    <tr>
+                        <td>350057</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350057_draw_gradients_unpre_colramp_repeat_06_ct.png" target="_blank"><img src=".\x86\ri\png\350057_draw_gradients_unpre_colramp_repeat_06_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350057_draw_gradients_unpre_colramp_repeat_06_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350057_draw_gradients_unpre_colramp_repeat_06_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array with multiple stops having the same offset. According to OpenVG specifications it is legal to have multiple stops with the same offset value, which will result in a discontinuity in the color ramp, with the first stop with a given offset value defining the right endpoint of one interval and the last stop with the same offset value defining the left endpoint of the next interval</td>
+                    </tr>
+                    <tr>
+                        <td>350058</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350058_draw_gradients_unpre_colramp_reflect_00_ct.png" target="_blank"><img src=".\x86\ri\png\350058_draw_gradients_unpre_colramp_reflect_00_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350058_draw_gradients_unpre_colramp_reflect_00_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350058_draw_gradients_unpre_colramp_reflect_00_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a NULL VG_PAINT_COLOR_RAMP_STOPS array, so according to OpenVG specifications, two implicit color stops are added: an opaque black at offset 0 and an opaque white at offset 1</td>
+                    </tr>
+                    <tr>
+                        <td>350059</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350059_draw_gradients_unpre_colramp_reflect_01_ct.png" target="_blank"><img src=".\x86\ri\png\350059_draw_gradients_unpre_colramp_reflect_01_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350059_draw_gradients_unpre_colramp_reflect_01_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350059_draw_gradients_unpre_colramp_reflect_01_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets an unordered sequence of color stops, so according to OpenVG specifications the entire sequence is ignored and two implicit color stops are added: an opaque black at offset 0 and an opaque white at offset 1</td>
+                    </tr>
+                    <tr>
+                        <td>350060</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350060_draw_gradients_unpre_colramp_reflect_02_ct.png" target="_blank"><img src=".\x86\ri\png\350060_draw_gradients_unpre_colramp_reflect_02_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350060_draw_gradients_unpre_colramp_reflect_02_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350060_draw_gradients_unpre_colramp_reflect_02_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array, but a color stop at offset 0 is missing, so according to OpenVG specifications an implicit stop is added with an offset of 0 and the same color as the first defined stop</td>
+                    </tr>
+                    <tr>
+                        <td>350061</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350061_draw_gradients_unpre_colramp_reflect_03_ct.png" target="_blank"><img src=".\x86\ri\png\350061_draw_gradients_unpre_colramp_reflect_03_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350061_draw_gradients_unpre_colramp_reflect_03_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350061_draw_gradients_unpre_colramp_reflect_03_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array, but a color stop at offset 1 is missing, so according to OpenVG specifications an implicit stop is added with an offset of 1 and the same color as the last defined stop</td>
+                    </tr>
+                    <tr>
+                        <td>350062</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350062_draw_gradients_unpre_colramp_reflect_04_ct.png" target="_blank"><img src=".\x86\ri\png\350062_draw_gradients_unpre_colramp_reflect_04_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350062_draw_gradients_unpre_colramp_reflect_04_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350062_draw_gradients_unpre_colramp_reflect_04_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a VG_PAINT_COLOR_RAMP_STOPS array made of four entries: the first two stops have the same offset 0, the last two stops have the same offset 1</td>
+                    </tr>
+                    <tr>
+                        <td>350063</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350063_draw_gradients_unpre_colramp_reflect_05_ct.png" target="_blank"><img src=".\x86\ri\png\350063_draw_gradients_unpre_colramp_reflect_05_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350063_draw_gradients_unpre_colramp_reflect_05_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350063_draw_gradients_unpre_colramp_reflect_05_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array made of five entries, with the first and last stops having an alpha value of zero</td>
+                    </tr>
+                    <tr>
+                        <td>350064</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350064_draw_gradients_unpre_colramp_reflect_06_ct.png" target="_blank"><img src=".\x86\ri\png\350064_draw_gradients_unpre_colramp_reflect_06_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350064_draw_gradients_unpre_colramp_reflect_06_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350064_draw_gradients_unpre_colramp_reflect_06_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED disabled, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array with multiple stops having the same offset. According to OpenVG specifications it is legal to have multiple stops with the same offset value, which will result in a discontinuity in the color ramp, with the first stop with a given offset value defining the right endpoint of one interval and the last stop with the same offset value defining the left endpoint of the next interval</td>
+                    </tr>
+                    <tr>
+                        <td>350065</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350065_draw_gradients_pre_colramp_pad_00_ct.png" target="_blank"><img src=".\x86\ri\png\350065_draw_gradients_pre_colramp_pad_00_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350065_draw_gradients_pre_colramp_pad_00_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350065_draw_gradients_pre_colramp_pad_00_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_PAD spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a NULL VG_PAINT_COLOR_RAMP_STOPS array, so according to OpenVG specifications, two implicit color stops are added: an opaque black at offset 0 and an opaque white at offset 1</td>
+                    </tr>
+                    <tr>
+                        <td>350066</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350066_draw_gradients_pre_colramp_pad_01_ct.png" target="_blank"><img src=".\x86\ri\png\350066_draw_gradients_pre_colramp_pad_01_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350066_draw_gradients_pre_colramp_pad_01_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350066_draw_gradients_pre_colramp_pad_01_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_PAD spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets an unordered sequence of color stops, so according to OpenVG specifications the entire sequence is ignored and two implicit color stops are added: an opaque black at offset 0 and an opaque white at offset 1</td>
+                    </tr>
+                    <tr>
+                        <td>350067</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350067_draw_gradients_pre_colramp_pad_02_ct.png" target="_blank"><img src=".\x86\ri\png\350067_draw_gradients_pre_colramp_pad_02_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350067_draw_gradients_pre_colramp_pad_02_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350067_draw_gradients_pre_colramp_pad_02_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_PAD spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array, but a color stop at offset 0 is missing, so according to OpenVG specifications an implicit stop is added with an offset of 0 and the same color as the first defined stop</td>
+                    </tr>
+                    <tr>
+                        <td>350068</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350068_draw_gradients_pre_colramp_pad_03_ct.png" target="_blank"><img src=".\x86\ri\png\350068_draw_gradients_pre_colramp_pad_03_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350068_draw_gradients_pre_colramp_pad_03_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350068_draw_gradients_pre_colramp_pad_03_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_PAD spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array, but a color stop at offset 1 is missing, so according to OpenVG specifications an implicit stop is added with an offset of 1 and the same color as the last defined stop</td>
+                    </tr>
+                    <tr>
+                        <td>350069</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350069_draw_gradients_pre_colramp_pad_04_ct.png" target="_blank"><img src=".\x86\ri\png\350069_draw_gradients_pre_colramp_pad_04_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350069_draw_gradients_pre_colramp_pad_04_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350069_draw_gradients_pre_colramp_pad_04_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_PAD spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a VG_PAINT_COLOR_RAMP_STOPS array made of four entries: the first two stops have the same offset 0, the last two stops have the same offset 1</td>
+                    </tr>
+                    <tr>
+                        <td>350070</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350070_draw_gradients_pre_colramp_pad_05_ct.png" target="_blank"><img src=".\x86\ri\png\350070_draw_gradients_pre_colramp_pad_05_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350070_draw_gradients_pre_colramp_pad_05_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350070_draw_gradients_pre_colramp_pad_05_ct.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_PAD spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array made of five entries, with the first and last stops having an alpha value of zero</td>
+                    </tr>
+                    <tr>
+                        <td>350071</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350071_draw_gradients_pre_colramp_pad_06_ct.png" target="_blank"><img src=".\x86\ri\png\350071_draw_gradients_pre_colramp_pad_06_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350071_draw_gradients_pre_colramp_pad_06_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350071_draw_gradients_pre_colramp_pad_06_ct.png"/></a></td>
+                        <td><h2> 98%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_PAD spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array with multiple stops having the same offset. According to OpenVG specifications it is legal to have multiple stops with the same offset value, which will result in a discontinuity in the color ramp, with the first stop with a given offset value defining the right endpoint of one interval and the last stop with the same offset value defining the left endpoint of the next interval</td>
+                    </tr>
+                    <tr>
+                        <td>350072</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350072_draw_gradients_pre_colramp_repeat_00_ct.png" target="_blank"><img src=".\x86\ri\png\350072_draw_gradients_pre_colramp_repeat_00_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350072_draw_gradients_pre_colramp_repeat_00_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350072_draw_gradients_pre_colramp_repeat_00_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a NULL VG_PAINT_COLOR_RAMP_STOPS array, so according to OpenVG specifications, two implicit color stops are added: an opaque black at offset 0 and an opaque white at offset 1. For this gradient in VG_COLOR_RAMP_SPREAD_REPEAT mode, at the gradient end points a sharp transition white-black is the expected behaviour; the Khronos reference implementation performs a filtering on the gradient, so at sharp transitions it shows an intermediate artifact color (a grey). This is particularly noticeable (RMS-wide) on B/W gradients</td>
+                    </tr>
+                    <tr>
+                        <td>350073</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350073_draw_gradients_pre_colramp_repeat_01_ct.png" target="_blank"><img src=".\x86\ri\png\350073_draw_gradients_pre_colramp_repeat_01_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350073_draw_gradients_pre_colramp_repeat_01_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350073_draw_gradients_pre_colramp_repeat_01_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets an unordered sequence of color stops, so according to OpenVG specifications the entire sequence is ignored and two implicit color stops are added: an opaque black at offset 0 and an opaque white at offset 1. For this gradient in VG_COLOR_RAMP_SPREAD_REPEAT mode, at the gradient end points a sharp transition white-black is the expected behaviour; the Khronos reference implementation performs a filtering on the gradient, so at sharp transitions it shows an intermediate artifact color (a grey). This is particularly noticeable (RMS-wide) on B/W gradients</td>
+                    </tr>
+                    <tr>
+                        <td>350074</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350074_draw_gradients_pre_colramp_repeat_02_ct.png" target="_blank"><img src=".\x86\ri\png\350074_draw_gradients_pre_colramp_repeat_02_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350074_draw_gradients_pre_colramp_repeat_02_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350074_draw_gradients_pre_colramp_repeat_02_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array, but a color stop at offset 0 is missing, so according to OpenVG specifications an implicit stop is added with an offset of 0 and the same color as the first defined stop</td>
+                    </tr>
+                    <tr>
+                        <td>350075</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350075_draw_gradients_pre_colramp_repeat_03_ct.png" target="_blank"><img src=".\x86\ri\png\350075_draw_gradients_pre_colramp_repeat_03_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350075_draw_gradients_pre_colramp_repeat_03_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350075_draw_gradients_pre_colramp_repeat_03_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array, but a color stop at offset 1 is missing, so according to OpenVG specifications an implicit stop is added with an offset of 1 and the same color as the last defined stop</td>
+                    </tr>
+                    <tr>
+                        <td>350076</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350076_draw_gradients_pre_colramp_repeat_04_ct.png" target="_blank"><img src=".\x86\ri\png\350076_draw_gradients_pre_colramp_repeat_04_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350076_draw_gradients_pre_colramp_repeat_04_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350076_draw_gradients_pre_colramp_repeat_04_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a VG_PAINT_COLOR_RAMP_STOPS array made of four entries: the first two stops have the same offset 0, the last two stops have the same offset 1</td>
+                    </tr>
+                    <tr>
+                        <td>350077</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350077_draw_gradients_pre_colramp_repeat_05_ct.png" target="_blank"><img src=".\x86\ri\png\350077_draw_gradients_pre_colramp_repeat_05_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350077_draw_gradients_pre_colramp_repeat_05_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350077_draw_gradients_pre_colramp_repeat_05_ct.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array made of five entries, with the first and last stops having an alpha value of zero</td>
+                    </tr>
+                    <tr>
+                        <td>350078</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350078_draw_gradients_pre_colramp_repeat_06_ct.png" target="_blank"><img src=".\x86\ri\png\350078_draw_gradients_pre_colramp_repeat_06_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350078_draw_gradients_pre_colramp_repeat_06_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350078_draw_gradients_pre_colramp_repeat_06_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array with multiple stops having the same offset. According to OpenVG specifications it is legal to have multiple stops with the same offset value, which will result in a discontinuity in the color ramp, with the first stop with a given offset value defining the right endpoint of one interval and the last stop with the same offset value defining the left endpoint of the next interval</td>
+                    </tr>
+                    <tr>
+                        <td>350079</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350079_draw_gradients_pre_colramp_reflect_00_ct.png" target="_blank"><img src=".\x86\ri\png\350079_draw_gradients_pre_colramp_reflect_00_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350079_draw_gradients_pre_colramp_reflect_00_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350079_draw_gradients_pre_colramp_reflect_00_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a NULL VG_PAINT_COLOR_RAMP_STOPS array, so according to OpenVG specifications, two implicit color stops are added: an opaque black at offset 0 and an opaque white at offset 1</td>
+                    </tr>
+                    <tr>
+                        <td>350080</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350080_draw_gradients_pre_colramp_reflect_01_ct.png" target="_blank"><img src=".\x86\ri\png\350080_draw_gradients_pre_colramp_reflect_01_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350080_draw_gradients_pre_colramp_reflect_01_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350080_draw_gradients_pre_colramp_reflect_01_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets an unordered sequence of color stops, so according to OpenVG specifications the entire sequence is ignored and two implicit color stops are added: an opaque black at offset 0 and an opaque white at offset 1</td>
+                    </tr>
+                    <tr>
+                        <td>350081</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350081_draw_gradients_pre_colramp_reflect_02_ct.png" target="_blank"><img src=".\x86\ri\png\350081_draw_gradients_pre_colramp_reflect_02_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350081_draw_gradients_pre_colramp_reflect_02_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350081_draw_gradients_pre_colramp_reflect_02_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array, but a color stop at offset 0 is missing, so according to OpenVG specifications an implicit stop is added with an offset of 0 and the same color as the first defined stop</td>
+                    </tr>
+                    <tr>
+                        <td>350082</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350082_draw_gradients_pre_colramp_reflect_03_ct.png" target="_blank"><img src=".\x86\ri\png\350082_draw_gradients_pre_colramp_reflect_03_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350082_draw_gradients_pre_colramp_reflect_03_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350082_draw_gradients_pre_colramp_reflect_03_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array, but a color stop at offset 1 is missing, so according to OpenVG specifications an implicit stop is added with an offset of 1 and the same color as the last defined stop</td>
+                    </tr>
+                    <tr>
+                        <td>350083</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350083_draw_gradients_pre_colramp_reflect_04_ct.png" target="_blank"><img src=".\x86\ri\png\350083_draw_gradients_pre_colramp_reflect_04_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350083_draw_gradients_pre_colramp_reflect_04_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350083_draw_gradients_pre_colramp_reflect_04_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a VG_PAINT_COLOR_RAMP_STOPS array made of four entries: the first two stops have the same offset 0, the last two stops have the same offset 1</td>
+                    </tr>
+                    <tr>
+                        <td>350084</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350084_draw_gradients_pre_colramp_reflect_05_ct.png" target="_blank"><img src=".\x86\ri\png\350084_draw_gradients_pre_colramp_reflect_05_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350084_draw_gradients_pre_colramp_reflect_05_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350084_draw_gradients_pre_colramp_reflect_05_ct.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array made of five entries, with the first and last stops having an alpha value of zero</td>
+                    </tr>
+                    <tr>
+                        <td>350085</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350085_draw_gradients_pre_colramp_reflect_06_ct.png" target="_blank"><img src=".\x86\ri\png\350085_draw_gradients_pre_colramp_reflect_06_ct.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350085_draw_gradients_pre_colramp_reflect_06_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350085_draw_gradients_pre_colramp_reflect_06_ct.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test color gradient with VG_PAINT_COLOR_RAMP_PREMULTIPLIED enabled, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, VG_COLOR_TRANSFORM enabled, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment">The test sets a valid VG_PAINT_COLOR_RAMP_STOPS array with multiple stops having the same offset. According to OpenVG specifications it is legal to have multiple stops with the same offset value, which will result in a discontinuity in the color ramp, with the first stop with a given offset value defining the right endpoint of one interval and the last stop with the same offset value defining the left endpoint of the next interval</td>
+                    </tr>
+                    <tr>
+                        <td>350086</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350086_draw_gradients_collapsed_lingrad_pad.png" target="_blank"><img src=".\x86\ri\png\350086_draw_gradients_collapsed_lingrad_pad.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350086_draw_gradients_collapsed_lingrad_pad.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350086_draw_gradients_collapsed_lingrad_pad.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test linear gradient with coincident start/end points, VG_COLOR_RAMP_SPREAD_PAD spread mode, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>350087</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350087_draw_gradients_collapsed_lingrad_repeat.png" target="_blank"><img src=".\x86\ri\png\350087_draw_gradients_collapsed_lingrad_repeat.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350087_draw_gradients_collapsed_lingrad_repeat.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350087_draw_gradients_collapsed_lingrad_repeat.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test linear gradient with coincident start/end points, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>350088</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350088_draw_gradients_collapsed_lingrad_reflect.png" target="_blank"><img src=".\x86\ri\png\350088_draw_gradients_collapsed_lingrad_reflect.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350088_draw_gradients_collapsed_lingrad_reflect.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350088_draw_gradients_collapsed_lingrad_reflect.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test linear gradient with coincident start/end points, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>350089</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350089_draw_gradients_collapsed_radgrad_pad.png" target="_blank"><img src=".\x86\ri\png\350089_draw_gradients_collapsed_radgrad_pad.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350089_draw_gradients_collapsed_radgrad_pad.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350089_draw_gradients_collapsed_radgrad_pad.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test radial gradient with a radius of 0, VG_COLOR_RAMP_SPREAD_PAD spread mode, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>350090</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350090_draw_gradients_collapsed_radgrad_repeat.png" target="_blank"><img src=".\x86\ri\png\350090_draw_gradients_collapsed_radgrad_repeat.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350090_draw_gradients_collapsed_radgrad_repeat.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350090_draw_gradients_collapsed_radgrad_repeat.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test radial gradient with a radius of 0, VG_COLOR_RAMP_SPREAD_REPEAT spread mode, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>350091</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\350091_draw_gradients_collapsed_radgrad_reflect.png" target="_blank"><img src=".\x86\ri\png\350091_draw_gradients_collapsed_radgrad_reflect.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\350091_draw_gradients_collapsed_radgrad_reflect.png" target="_blank"><img src=".\x86_64\sre\standalone\png\350091_draw_gradients_collapsed_radgrad_reflect.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test radial gradient with a radius of 0, VG_COLOR_RAMP_SPREAD_REFLECT spread mode, alpha-premultiplied drawing surface</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div id="footer">(C) 2004-2019 Mazatech, Srl - VAT ID IT03498460405 - All rights reserved</div>
+<script src="js/ui.js"></script>
+</body>
+</html>

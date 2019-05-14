@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AmanithVG testsuite">
+    <title>AmanithVG testsuite</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/side-menu.css">
+    <!--<![endif]-->
+    <link rel="stylesheet" href="css/layouts/report.css">
+</head>
+<body>
+<div id="layout">
+    <a href="#menu" id="menuLink" class="menu-link">
+        <span></span>
+    </a>
+    <div id="menu">
+        <div class="pure-menu">
+            <a class="pure-menu-heading" href="index.html">AmanithVG<br>Test suite</a>
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="group-005.html" class="pure-menu-link">group-005</a></li>
+                <li class="pure-menu-item"><a href="group-006.html" class="pure-menu-link">group-006</a></li>
+                <li class="pure-menu-item"><a href="group-009.html" class="pure-menu-link">group-009</a></li>
+                <li class="pure-menu-item"><a href="group-010.html" class="pure-menu-link">group-010</a></li>
+                <li class="pure-menu-item"><a href="group-011.html" class="pure-menu-link">group-011</a></li>
+                <li class="pure-menu-item"><a href="group-012.html" class="pure-menu-link">group-012</a></li>
+                <li class="pure-menu-item"><a href="group-013.html" class="pure-menu-link">group-013</a></li>
+                <li class="pure-menu-item"><a href="group-014.html" class="pure-menu-link">group-014</a></li>
+                <li class="pure-menu-item"><a href="group-015.html" class="pure-menu-link">group-015</a></li>
+                <li class="pure-menu-item"><a href="group-017.html" class="pure-menu-link">group-017</a></li>
+                <li class="pure-menu-item"><a href="group-018.html" class="pure-menu-link">group-018</a></li>
+                <li class="pure-menu-item"><a href="group-019.html" class="pure-menu-link">group-019</a></li>
+                <li class="pure-menu-item"><a href="group-020.html" class="pure-menu-link">group-020</a></li>
+                <li class="pure-menu-item"><a href="group-021.html" class="pure-menu-link">group-021</a></li>
+                <li class="pure-menu-item"><a href="group-022.html" class="pure-menu-link">group-022</a></li>
+                <li class="pure-menu-item"><a href="group-023.html" class="pure-menu-link">group-023</a></li>
+                <li class="pure-menu-item"><a href="group-025.html" class="pure-menu-link">group-025</a></li>
+                <li class="pure-menu-item"><a href="group-026.html" class="pure-menu-link">group-026</a></li>
+                <li class="pure-menu-item"><a href="group-027.html" class="pure-menu-link">group-027</a></li>
+                <li class="pure-menu-item"><a href="group-028.html" class="pure-menu-link">group-028</a></li>
+                <li class="pure-menu-item"><a href="group-030.html" class="pure-menu-link">group-030</a></li>
+                <li class="pure-menu-item"><a href="group-031.html" class="pure-menu-link">group-031</a></li>
+                <li class="pure-menu-item"><a href="group-032.html" class="pure-menu-link">group-032</a></li>
+                <li class="pure-menu-item"><a href="group-034.html" class="pure-menu-link">group-034</a></li>
+                <li class="pure-menu-item"><a href="group-035.html" class="pure-menu-link">group-035</a></li>
+                <li class="pure-menu-item"><a href="group-036.html" class="pure-menu-link">group-036</a></li>
+                <li class="pure-menu-item"><a href="group-037.html" class="pure-menu-link">group-037</a></li>
+                <li class="pure-menu-item"><a href="group-038.html" class="pure-menu-link">group-038</a></li>
+                <li class="pure-menu-item"><a href="group-039.html" class="pure-menu-link">group-039</a></li>
+                <li class="pure-menu-heading">Missing</li>
+                <li class="pure-menu-item"><a href="group-005_m.html" class="pure-menu-link">group-005_m</a></li>
+                <li class="pure-menu-item"><a href="group-011_m.html" class="pure-menu-link">group-011_m</a></li>
+                <li class="pure-menu-item"><a href="group-013_m.html" class="pure-menu-link">group-013_m</a></li>
+                <li class="pure-menu-item"><a href="group-014_m.html" class="pure-menu-link">group-014_m</a></li>
+                <li class="pure-menu-item"><a href="group-015_m.html" class="pure-menu-link">group-015_m</a></li>
+                <li class="pure-menu-item"><a href="group-016_m.html" class="pure-menu-link">group-016_m</a></li>
+                <li class="pure-menu-item"><a href="group-017_m.html" class="pure-menu-link">group-017_m</a></li>
+                <li class="pure-menu-item"><a href="group-020_m.html" class="pure-menu-link">group-020_m</a></li>
+                <li class="pure-menu-item"><a href="group-021_m.html" class="pure-menu-link">group-021_m</a></li>
+                <li class="pure-menu-item"><a href="group-022_m.html" class="pure-menu-link">group-022_m</a></li>
+                <li class="pure-menu-item"><a href="group-023_m.html" class="pure-menu-link">group-023_m</a></li>
+                <li class="pure-menu-item"><a href="group-024_m.html" class="pure-menu-link">group-024_m</a></li>
+                <li class="pure-menu-item"><a href="group-025_m.html" class="pure-menu-link">group-025_m</a></li>
+                <li class="pure-menu-item"><a href="group-026_m.html" class="pure-menu-link">group-026_m</a></li>
+                <li class="pure-menu-item"><a href="group-027_m.html" class="pure-menu-link">group-027_m</a></li>
+                <li class="pure-menu-item"><a href="group-028_m.html" class="pure-menu-link">group-028_m</a></li>
+                <li class="pure-menu-item"><a href="group-029_m.html" class="pure-menu-link">group-029_m</a></li>
+                <li class="pure-menu-item"><a href="group-030_m.html" class="pure-menu-link">group-030_m</a></li>
+                <li class="pure-menu-item"><a href="group-033_m.html" class="pure-menu-link">group-033_m</a></li>
+                <li class="pure-menu-item"><a href="group-035_m.html" class="pure-menu-link">group-035_m</a></li>
+                <li class="pure-menu-item"><a href="group-036_m.html" class="pure-menu-link">group-036_m</a></li>
+                <li class="pure-menu-item"><a href="group-037_m.html" class="pure-menu-link">group-037_m</a></li>
+                <li class="pure-menu-heading">Others</li>
+                <li class="pure-menu-item"><a href="high_differences.html" class="pure-menu-link">High diff</a></li>
+                <li class="pure-menu-item">&nbsp;</li>
+                <li class="pure-menu-item">&nbsp;</li>
+            </ul>
+        </div>
+    </div>
+    <div id="main">
+        <div class="header">
+            <h1>Test group #011<br>Image filters
+</h1>
+            <h2>file automatically generated by AmanithVG testsuite</h2>
+        </div>
+        <div class="content">
+            <table class="pure-table pure-table-bordered">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Reference</th>
+                        <th>AmanithVG</th>
+                        <th>RMS</th>
+                        <th>Description</th>
+                        <th>Comment</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>110001</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110001_filter_colormatrix_l_unpre.png" target="_blank"><img src=".\x86\ri\png\110001_filter_colormatrix_l_unpre.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110001_filter_colormatrix_l_unpre.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110001_filter_colormatrix_l_unpre.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgColorMatrix by applying the a desaturation filter in a linear alpha-unpremultiplied color space. Source image has been created with a VG_sRGBA_8888 format, destination image with VG_lRGBA_8888 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110002</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110002_filter_colormatrix_l_pre.png" target="_blank"><img src=".\x86\ri\png\110002_filter_colormatrix_l_pre.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110002_filter_colormatrix_l_pre.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110002_filter_colormatrix_l_pre.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgColorMatrix by applying the a desaturation filter in a linear alpha-premultiplied color space. Source image has been created with a VG_sRGBA_8888 format, destination image with VG_lRGBA_8888 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110003</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110003_filter_colormatrix_s_unpre.png" target="_blank"><img src=".\x86\ri\png\110003_filter_colormatrix_s_unpre.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110003_filter_colormatrix_s_unpre.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110003_filter_colormatrix_s_unpre.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgColorMatrix by applying the a desaturation filter in a non-linear (i.e. sRGB) alpha-unpremultiplied color space. Source image has been created with a VG_sRGBA_8888 format, destination image with VG_lRGBA_8888 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110004</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110004_filter_colormatrix_s_pre.png" target="_blank"><img src=".\x86\ri\png\110004_filter_colormatrix_s_pre.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110004_filter_colormatrix_s_pre.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110004_filter_colormatrix_s_pre.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgColorMatrix by applying the a desaturation filter in a non-linear (i.e. sRGB) alpha-premultiplied color space. Source image has been created with a VG_sRGBA_8888 format, destination image with VG_lRGBA_8888 format)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110005</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110005_filter_colormatrix_A_4.png" target="_blank"><img src=".\x86\ri\png\110005_filter_colormatrix_A_4.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110005_filter_colormatrix_A_4.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110005_filter_colormatrix_A_4.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgColorMatrix by applying the a desaturation filter in a non-linear (i.e. sRGB) alpha-premultiplied color space. Source image has been created with a VG_sRGBA_8888 format, destination image with VG_A_4 format)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110006</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110006_filter_colormatrix_BW_1.png" target="_blank"><img src=".\x86\ri\png\110006_filter_colormatrix_BW_1.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110006_filter_colormatrix_BW_1.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110006_filter_colormatrix_BW_1.png"/></a></td>
+                        <td><h2> 97%</h2></td>
+                        <td class="testdesc">Test vgColorMatrix by applying the a desaturation filter in a non-linear (i.e. sRGB) alpha-premultiplied color space. Source image has been created with a VG_sRGBA_8888 format, destination image with VG_BW_1 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110007</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110007_filter_colormatrix_fast_pipeline.png" target="_blank"><img src=".\x86\ri\png\110007_filter_colormatrix_fast_pipeline.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110007_filter_colormatrix_fast_pipeline.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110007_filter_colormatrix_fast_pipeline.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgColorMatrix by applying the a desaturation filter in a non-linear (i.e. sRGB) alpha-unpremultiplied color space. Both source and destination images have been created with the 32bit format that coincides with the filter space (i.e. VG_sRGBA_8888), so AmanithVG can take advance of a dedicated optimized filter pipeline</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110010</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110010_filter_convolve_l_unpre.png" target="_blank"><img src=".\x86\ri\png\110010_filter_convolve_l_unpre.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110010_filter_convolve_l_unpre.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110010_filter_convolve_l_unpre.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgConvolve by applying the filter in a linear alpha-unpremultiplied color space. Both source and destination images have been created with a VG_lRGBA_8888 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110011</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110011_filter_convolve_l_pre.png" target="_blank"><img src=".\x86\ri\png\110011_filter_convolve_l_pre.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110011_filter_convolve_l_pre.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110011_filter_convolve_l_pre.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgConvolve by applying the filter in a linear alpha-premultiplied color space. Both source and destination images have been created with a VG_lRGBA_8888 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110012</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110012_filter_convolve_s_unpre.png" target="_blank"><img src=".\x86\ri\png\110012_filter_convolve_s_unpre.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110012_filter_convolve_s_unpre.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110012_filter_convolve_s_unpre.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test vgConvolve by applying the filter in a non-linear (i.e. sRGB) alpha-unpremultiplied color space. Both source and destination images have been created with a VG_lRGBA_8888 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110013</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110013_filter_convolve_s_pre.png" target="_blank"><img src=".\x86\ri\png\110013_filter_convolve_s_pre.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110013_filter_convolve_s_pre.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110013_filter_convolve_s_pre.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test vgConvolve by applying the filter in a non-linear (i.e. sRGB) alpha-premultiplied color space. Both source and destination images have been created with a VG_lRGBA_8888 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110014</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110014_filter_convolve_A_4.png" target="_blank"><img src=".\x86\ri\png\110014_filter_convolve_A_4.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110014_filter_convolve_A_4.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110014_filter_convolve_A_4.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgConvolve by applying the filter in a non-linear (i.e. sRGB) alpha-premultiplied color space. Source image has been created with a VG_lRGBA_8888 format, the destination image with the VG_A_4 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110015</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110015_filter_convolve_BW_1.png" target="_blank"><img src=".\x86\ri\png\110015_filter_convolve_BW_1.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110015_filter_convolve_BW_1.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110015_filter_convolve_BW_1.png"/></a></td>
+                        <td><h2> 95%</h2></td>
+                        <td class="testdesc">Test vgConvolve by applying the filter in a non-linear (i.e. sRGB) alpha-premultiplied color space. Source image has been created with a VG_lRGBA_8888 format, the destination image with the VG_BW_1 format</td>
+                        <td class="testcomment">Khronos reference implementation uses floating point calculations, AmanithVG instead performs the filter algorithm using integer fixed-point arithmetics; so the result may be different on the two implementations and particularly noticeable (RMS-wide) on the VG_BW_1 image format</td>
+                    </tr>
+                    <tr>
+                        <td>110016</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110016_filter_convolve_no_alpha_channel.png" target="_blank"><img src=".\x86\ri\png\110016_filter_convolve_no_alpha_channel.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110016_filter_convolve_no_alpha_channel.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110016_filter_convolve_no_alpha_channel.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test vgConvolve by applying the filter in a non-linear (i.e. sRGB) alpha-unpremultiplied color space. Both source and destination images have been created with a VG_lRGBA_8888 format. NB: in this case the alpha channel writing has been disabled by setting VG_FILTER_CHANNEL_MASK context parameter as VG_RED | VG_GREEN | VG_BLUE</td>
+                        <td class="testcomment">According to OpenVG specifications: "if the VG_FILTER_CHANNEL_MASK parameter has its VG_ALPHA bit enabled, the convolved alpha value is used; otherwise, the original alpha value of each source pixel is used in the final destination premultiplication step"</td>
+                    </tr>
+                    <tr>
+                        <td>110017</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110017_filter_convolve_no_alpha_channel_A_4.png" target="_blank"><img src=".\x86\ri\png\110017_filter_convolve_no_alpha_channel_A_4.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110017_filter_convolve_no_alpha_channel_A_4.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110017_filter_convolve_no_alpha_channel_A_4.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgConvolve by applying the filter in a non-linear (i.e. sRGB) alpha-unpremultiplied color space. Source image has been created with a VG_lRGBA_8888 format, the destination image with the VG_A_4 format. NB: in this case the alpha channel writing has been disabled by setting VG_FILTER_CHANNEL_MASK context parameter as VG_RED | VG_GREEN | VG_BLUE</td>
+                        <td class="testcomment">According to OpenVG specifications: "if the VG_FILTER_CHANNEL_MASK parameter has its VG_ALPHA bit enabled, the convolved alpha value is used; otherwise, the original alpha value of each source pixel is used in the final destination premultiplication step"</td>
+                    </tr>
+                    <tr>
+                        <td>110018</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110018_filter_sep_convolve_l_unpre.png" target="_blank"><img src=".\x86\ri\png\110018_filter_sep_convolve_l_unpre.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110018_filter_sep_convolve_l_unpre.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110018_filter_sep_convolve_l_unpre.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgSeparableConvolve by applying the filter in a linear alpha-unpremultiplied color space. Both source and destination images have been created with a VG_lRGBA_8888 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110019</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110019_filter_sep_convolve_l_pre.png" target="_blank"><img src=".\x86\ri\png\110019_filter_sep_convolve_l_pre.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110019_filter_sep_convolve_l_pre.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110019_filter_sep_convolve_l_pre.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test vgSeparableConvolve by applying the filter in a linear alpha-premultiplied color space. Both source and destination images have been created with a VG_lRGBA_8888 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110020</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110020_filter_sep_convolve_s_unpre.png" target="_blank"><img src=".\x86\ri\png\110020_filter_sep_convolve_s_unpre.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110020_filter_sep_convolve_s_unpre.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110020_filter_sep_convolve_s_unpre.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test vgSeparableConvolve by applying the filter in a non-linear (i.e. sRGB) alpha-unpremultiplied color space. Both source and destination images have been created with a VG_lRGBA_8888 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110021</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110021_filter_sep_convolve_s_pre.png" target="_blank"><img src=".\x86\ri\png\110021_filter_sep_convolve_s_pre.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110021_filter_sep_convolve_s_pre.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110021_filter_sep_convolve_s_pre.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test vgSeparableConvolve by applying the filter in a non-linear (i.e. sRGB) alpha-premultiplied color space. Both source and destination images have been created with a VG_lRGBA_8888 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110022</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110022_filter_sep_convolve_A_4.png" target="_blank"><img src=".\x86\ri\png\110022_filter_sep_convolve_A_4.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110022_filter_sep_convolve_A_4.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110022_filter_sep_convolve_A_4.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgSeparableConvolve by applying the filter in a non-linear (i.e. sRGB) alpha-premultiplied color space. Source image has been created with a VG_lRGBA_8888 format, the destination image with the VG_A_4 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110023</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110023_filter_sep_convolve_BW_1.png" target="_blank"><img src=".\x86\ri\png\110023_filter_sep_convolve_BW_1.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110023_filter_sep_convolve_BW_1.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110023_filter_sep_convolve_BW_1.png"/></a></td>
+                        <td><h2> 96%</h2></td>
+                        <td class="testdesc">Test vgSeparableConvolve by applying the filter in a non-linear (i.e. sRGB) alpha-premultiplied color space. Source image has been created with a VG_lRGBA_8888 format, the destination image with the VG_BW_1 format</td>
+                        <td class="testcomment">Khronos reference implementation uses floating point calculations, AmanithVG instead performs the filter algorithm using integer fixed-point arithmetics; so the result may be different on the two implementations and particularly noticeable (RMS-wide) on the VG_BW_1 image format</td>
+                    </tr>
+                    <tr>
+                        <td>110024</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110024_filter_sep_convolve_no_alpha_channel.png" target="_blank"><img src=".\x86\ri\png\110024_filter_sep_convolve_no_alpha_channel.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110024_filter_sep_convolve_no_alpha_channel.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110024_filter_sep_convolve_no_alpha_channel.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test vgSeparableConvolve by applying the filter in a non-linear (i.e. sRGB) alpha-unpremultiplied color space. Both source and destination images have been created with a VG_lRGBA_8888 format. NB: in this case the alpha channel writing has been disabled by setting VG_FILTER_CHANNEL_MASK context parameter as VG_RED | VG_GREEN | VG_BLUE</td>
+                        <td class="testcomment">According to OpenVG specifications: "if the VG_FILTER_CHANNEL_MASK parameter has its VG_ALPHA bit enabled, the convolved alpha value is used; otherwise, the original alpha value of each source pixel is used in the final destination premultiplication step"</td>
+                    </tr>
+                    <tr>
+                        <td>110025</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110025_filter_sep_convolve_no_alpha_channel_A_4.png" target="_blank"><img src=".\x86\ri\png\110025_filter_sep_convolve_no_alpha_channel_A_4.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110025_filter_sep_convolve_no_alpha_channel_A_4.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110025_filter_sep_convolve_no_alpha_channel_A_4.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgSeparableConvolve by applying the filter in a non-linear (i.e. sRGB) alpha-unpremultiplied color space. Source image has been created with a VG_lRGBA_8888 format, the destination image with the VG_A_4 format. NB: in this case the alpha channel writing has been disabled by setting VG_FILTER_CHANNEL_MASK context parameter as VG_RED | VG_GREEN | VG_BLUE</td>
+                        <td class="testcomment">According to OpenVG specifications: "if the VG_FILTER_CHANNEL_MASK parameter has its VG_ALPHA bit enabled, the convolved alpha value is used; otherwise, the original alpha value of each source pixel is used in the final destination premultiplication step"</td>
+                    </tr>
+                    <tr>
+                        <td>110026</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110026_filter_gaussian_really_small_deviation.png" target="_blank"><img src=".\x86\ri\png\110026_filter_gaussian_really_small_deviation.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110026_filter_gaussian_really_small_deviation.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110026_filter_gaussian_really_small_deviation.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgGaussianBlur filter with a really small standard deviation (0.001) and VG_TILE_FILL tiling mode</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110027</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110027_filter_gaussian_small_deviation.png" target="_blank"><img src=".\x86\ri\png\110027_filter_gaussian_small_deviation.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110027_filter_gaussian_small_deviation.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110027_filter_gaussian_small_deviation.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgGaussianBlur filter with a small standard deviation (0.5) and VG_TILE_PAD tiling mode</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110028</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110028_filter_gaussian_medium_deviation.png" target="_blank"><img src=".\x86\ri\png\110028_filter_gaussian_medium_deviation.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110028_filter_gaussian_medium_deviation.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110028_filter_gaussian_medium_deviation.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test vgGaussianBlur filter with a medium standard deviation (2.0) and VG_TILE_REPEAT tiling mode</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110029</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110029_filter_gaussian_large_deviation.png" target="_blank"><img src=".\x86\ri\png\110029_filter_gaussian_large_deviation.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110029_filter_gaussian_large_deviation.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110029_filter_gaussian_large_deviation.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgGaussianBlur filter with a large standard deviation (8.0) and VG_TILE_REFLECT tiling mode</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110030</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110030_filter_gaussian_really_large_deviation.png" target="_blank"><img src=".\x86\ri\png\110030_filter_gaussian_really_large_deviation.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110030_filter_gaussian_really_large_deviation.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110030_filter_gaussian_really_large_deviation.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test vgGaussianBlur filter with a really large standard deviation (16.0) and VG_TILE_FILL tiling mode</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110031</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110031_filter_gaussian_npot_repeat.png" target="_blank"><img src=".\x86\ri\png\110031_filter_gaussian_npot_repeat.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110031_filter_gaussian_npot_repeat.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110031_filter_gaussian_npot_repeat.png"/></a></td>
+                        <td><h2> 98%</h2></td>
+                        <td class="testdesc">Test vgGaussianBlur filter upon a non-power-of-two child image, a large standard deviation (8.0) and VG_TILE_REPEAT tiling mode</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110032</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110032_filter_gaussian_npot_reflect.png" target="_blank"><img src=".\x86\ri\png\110032_filter_gaussian_npot_reflect.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110032_filter_gaussian_npot_reflect.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110032_filter_gaussian_npot_reflect.png"/></a></td>
+                        <td><h2> 98%</h2></td>
+                        <td class="testdesc">Test vgGaussianBlur filter upon a non-power-of-two child image, a large standard deviation (8.0) and VG_TILE_REFLECT tiling mode</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110033</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110033_filter_lookup_l_unpre.png" target="_blank"><img src=".\x86\ri\png\110033_filter_lookup_l_unpre.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110033_filter_lookup_l_unpre.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110033_filter_lookup_l_unpre.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgLookup filter by specifying linear alpha-unpremultiplied color lookup tables. Destination image has a VG_lRGBA_8888 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110034</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110034_filter_lookup_s_unpre.png" target="_blank"><img src=".\x86\ri\png\110034_filter_lookup_s_unpre.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110034_filter_lookup_s_unpre.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110034_filter_lookup_s_unpre.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgLookup filter by specifying non-linear (i.e. sRGB) alpha-unpremultiplied color lookup tables. Destination image has a VG_lRGBA_8888 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110035</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110035_filter_lookup_l_pre.png" target="_blank"><img src=".\x86\ri\png\110035_filter_lookup_l_pre.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110035_filter_lookup_l_pre.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110035_filter_lookup_l_pre.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgLookup filter by specifying linear alpha-premultiplied color lookup tables. Destination image has a VG_lRGBA_8888 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110036</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110036_filter_lookup_s_pre.png" target="_blank"><img src=".\x86\ri\png\110036_filter_lookup_s_pre.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110036_filter_lookup_s_pre.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110036_filter_lookup_s_pre.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgLookup filter by specifying non-linear (i.e. sRGB) alpha-premultiplied color lookup tables. Destination image has a VG_lRGBA_8888 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110037</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110037_filter_lookup_A_4.png" target="_blank"><img src=".\x86\ri\png\110037_filter_lookup_A_4.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110037_filter_lookup_A_4.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110037_filter_lookup_A_4.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgLookup filter by specifying non-linear (i.e. sRGB) alpha-premultiplied color lookup tables. Destination image has a VG_A_4 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110038</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110038_filter_lookup_BW_1.png" target="_blank"><img src=".\x86\ri\png\110038_filter_lookup_BW_1.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110038_filter_lookup_BW_1.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110038_filter_lookup_BW_1.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgLookup filter by specifying non-linear (i.e. sRGB) alpha-premultiplied color lookup tables. Destination image has a VG_BW_1 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110039</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110039_filter_lookup_single_rgba_l_unpre.png" target="_blank"><img src=".\x86\ri\png\110039_filter_lookup_single_rgba_l_unpre.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110039_filter_lookup_single_rgba_l_unpre.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110039_filter_lookup_single_rgba_l_unpre.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgLookupSingle applied on a VG_lRGBA_8888 image, specifying a linear alpha-unpremultiplied color palette and using VG_RED as the source channel. Destination image has a VG_lRGBA_8888 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110040</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110040_filter_lookup_single_rgba_s_unpre.png" target="_blank"><img src=".\x86\ri\png\110040_filter_lookup_single_rgba_s_unpre.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110040_filter_lookup_single_rgba_s_unpre.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110040_filter_lookup_single_rgba_s_unpre.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgLookupSingle applied on a VG_lRGBA_8888 image, specifying a non-linear (i.e. sRGB) alpha-unpremultiplied color palette and using VG_GREEN as the source channel. Destination image has a VG_lRGBA_8888 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110041</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110041_filter_lookup_single_rgba_l_pre.png" target="_blank"><img src=".\x86\ri\png\110041_filter_lookup_single_rgba_l_pre.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110041_filter_lookup_single_rgba_l_pre.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110041_filter_lookup_single_rgba_l_pre.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgLookupSingle applied on a VG_lRGBA_8888 image, specifying a linear alpha-premultiplied color palette and using VG_BLUE as the source channel. Destination image has a VG_lRGBA_8888 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110042</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110042_filter_lookup_single_rgba_s_pre.png" target="_blank"><img src=".\x86\ri\png\110042_filter_lookup_single_rgba_s_pre.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110042_filter_lookup_single_rgba_s_pre.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110042_filter_lookup_single_rgba_s_pre.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgLookupSingle applied on a VG_lRGBA_8888 image, specifying a non-linear (i.e. sRGB) alpha-premultiplied color palette and using VG_ALPHA as the source channel. Destination image has a VG_lRGBA_8888 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110043</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110043_filter_lookup_single_rgba_A_4.png" target="_blank"><img src=".\x86\ri\png\110043_filter_lookup_single_rgba_A_4.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110043_filter_lookup_single_rgba_A_4.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110043_filter_lookup_single_rgba_A_4.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgLookupSingle applied on a VG_lRGBA_8888 image, specifying a non-linear (i.e. sRGB) alpha-premultiplied color palette and using VG_ALPHA as the source channel. Destination image has a VG_A_4 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110044</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110044_filter_lookup_single_rgba_BW_1.png" target="_blank"><img src=".\x86\ri\png\110044_filter_lookup_single_rgba_BW_1.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110044_filter_lookup_single_rgba_BW_1.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110044_filter_lookup_single_rgba_BW_1.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgLookupSingle applied on a VG_lRGBA_8888 image, specifying a non-linear (i.e. sRGB) alpha-premultiplied color palette and using VG_ALPHA as the source channel. Destination image has a VG_BW_1 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110045</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110045_filter_lookup_single_sL_8_rgba.png" target="_blank"><img src=".\x86\ri\png\110045_filter_lookup_single_sL_8_rgba.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110045_filter_lookup_single_sL_8_rgba.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110045_filter_lookup_single_sL_8_rgba.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test vgLookupSingle applied on a VG_sL_8 image, specifying a linear alpha-unpremultiplied color palette. Destination image has a VG_lRGBA_8888 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110046</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110046_filter_lookup_single_sL_8_BW_1.png" target="_blank"><img src=".\x86\ri\png\110046_filter_lookup_single_sL_8_BW_1.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110046_filter_lookup_single_sL_8_BW_1.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110046_filter_lookup_single_sL_8_BW_1.png"/></a></td>
+                        <td><h2> 98%</h2></td>
+                        <td class="testdesc">Test vgLookupSingle applied on a VG_sL_8 image, specifying a linear alpha-unpremultiplied color palette. Destination image has a VG_BW_1 format</td>
+                        <td class="testcomment">Khronos reference implementation performs conversion between color spaces by using floating point calculations, AmanithVG instead performs the same steps by using integer arithmetics (fixed-point precision); so the result may be different on the two implementations and particularly noticeable (RMS-wide) on the VG_BW_1 image format</td>
+                    </tr>
+                    <tr>
+                        <td>110047</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110047_filter_lookup_single_lL_8_rgba.png" target="_blank"><img src=".\x86\ri\png\110047_filter_lookup_single_lL_8_rgba.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110047_filter_lookup_single_lL_8_rgba.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110047_filter_lookup_single_lL_8_rgba.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test vgLookupSingle applied on a VG_lL_8 image, specifying a linear alpha-unpremultiplied color palette. Destination image has a VG_lRGBA_8888 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110048</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110048_filter_lookup_single_lL_8_BW_1.png" target="_blank"><img src=".\x86\ri\png\110048_filter_lookup_single_lL_8_BW_1.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110048_filter_lookup_single_lL_8_BW_1.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110048_filter_lookup_single_lL_8_BW_1.png"/></a></td>
+                        <td><h2> 96%</h2></td>
+                        <td class="testdesc">Test vgLookupSingle applied on a VG_lL_8 image, specifying a linear alpha-unpremultiplied color palette. Destination image has a VG_BW_1 format</td>
+                        <td class="testcomment">Khronos reference implementation performs conversion between color spaces by using floating point calculations, AmanithVG instead performs the same steps by using integer arithmetics (fixed-point precision); so the result may be different on the two implementations and particularly noticeable (RMS-wide) on the VG_BW_1 image format</td>
+                    </tr>
+                    <tr>
+                        <td>110049</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110049_filter_lookup_single_A_8_rgba.png" target="_blank"><img src=".\x86\ri\png\110049_filter_lookup_single_A_8_rgba.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110049_filter_lookup_single_A_8_rgba.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110049_filter_lookup_single_A_8_rgba.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgLookupSingle applied on a VG_A_8 image, specifying a linear alpha-unpremultiplied color palette. Destination image has a VG_lRGBA_8888 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110050</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110050_filter_lookup_single_A_8_A_1.png" target="_blank"><img src=".\x86\ri\png\110050_filter_lookup_single_A_8_A_1.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110050_filter_lookup_single_A_8_A_1.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110050_filter_lookup_single_A_8_A_1.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgLookupSingle applied on a VG_A_8 image, specifying a linear alpha-unpremultiplied color palette. Destination image has a VG_A_1 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110051</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110051_filter_lookup_single_A_4_rgba.png" target="_blank"><img src=".\x86\ri\png\110051_filter_lookup_single_A_4_rgba.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110051_filter_lookup_single_A_4_rgba.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110051_filter_lookup_single_A_4_rgba.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgLookupSingle applied on a VG_A_4 image, specifying a linear alpha-unpremultiplied color palette. Destination image has a VG_lRGBA_8888 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110052</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110052_filter_lookup_single_A_4_A_1.png" target="_blank"><img src=".\x86\ri\png\110052_filter_lookup_single_A_4_A_1.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110052_filter_lookup_single_A_4_A_1.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110052_filter_lookup_single_A_4_A_1.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgLookupSingle applied on a VG_A_4 image, specifying a linear alpha-unpremultiplied color palette. Destination image has a VG_A_1 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110053</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110053_filter_lookup_single_A_1_rgba.png" target="_blank"><img src=".\x86\ri\png\110053_filter_lookup_single_A_1_rgba.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110053_filter_lookup_single_A_1_rgba.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110053_filter_lookup_single_A_1_rgba.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgLookupSingle applied on a VG_A_1 image, specifying a linear alpha-unpremultiplied color palette. Destination image has a VG_lRGBA_8888 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110054</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110054_filter_lookup_single_A_1_A_1.png" target="_blank"><img src=".\x86\ri\png\110054_filter_lookup_single_A_1_A_1.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110054_filter_lookup_single_A_1_A_1.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110054_filter_lookup_single_A_1_A_1.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgLookupSingle applied on a VG_A_1 image, specifying a linear alpha-unpremultiplied color palette. Destination image has a VG_A_1 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110055</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110055_filter_lookup_single_BW_1_rgba.png" target="_blank"><img src=".\x86\ri\png\110055_filter_lookup_single_BW_1_rgba.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110055_filter_lookup_single_BW_1_rgba.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110055_filter_lookup_single_BW_1_rgba.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgLookupSingle applied on a VG_BW_1 image, specifying a linear alpha-unpremultiplied color palette. Destination image has a VG_lRGBA_8888 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>110056</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\110056_filter_lookup_single_BW_1_BW_1.png" target="_blank"><img src=".\x86\ri\png\110056_filter_lookup_single_BW_1_BW_1.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\110056_filter_lookup_single_BW_1_BW_1.png" target="_blank"><img src=".\x86_64\sre\standalone\png\110056_filter_lookup_single_BW_1_BW_1.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test vgLookupSingle applied on a VG_BW_1 image, specifying a linear alpha-unpremultiplied color palette. Destination image has a VG_BW_1 format</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div id="footer">(C) 2004-2019 Mazatech, Srl - VAT ID IT03498460405 - All rights reserved</div>
+<script src="js/ui.js"></script>
+</body>
+</html>

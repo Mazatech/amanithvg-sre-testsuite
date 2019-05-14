@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AmanithVG testsuite">
+    <title>AmanithVG testsuite</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/side-menu.css">
+    <!--<![endif]-->
+    <link rel="stylesheet" href="css/layouts/report.css">
+</head>
+<body>
+<div id="layout">
+    <a href="#menu" id="menuLink" class="menu-link">
+        <span></span>
+    </a>
+    <div id="menu">
+        <div class="pure-menu">
+            <a class="pure-menu-heading" href="index.html">AmanithVG<br>Test suite</a>
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="group-005.html" class="pure-menu-link">group-005</a></li>
+                <li class="pure-menu-item"><a href="group-006.html" class="pure-menu-link">group-006</a></li>
+                <li class="pure-menu-item"><a href="group-009.html" class="pure-menu-link">group-009</a></li>
+                <li class="pure-menu-item"><a href="group-010.html" class="pure-menu-link">group-010</a></li>
+                <li class="pure-menu-item"><a href="group-011.html" class="pure-menu-link">group-011</a></li>
+                <li class="pure-menu-item"><a href="group-012.html" class="pure-menu-link">group-012</a></li>
+                <li class="pure-menu-item"><a href="group-013.html" class="pure-menu-link">group-013</a></li>
+                <li class="pure-menu-item"><a href="group-014.html" class="pure-menu-link">group-014</a></li>
+                <li class="pure-menu-item"><a href="group-015.html" class="pure-menu-link">group-015</a></li>
+                <li class="pure-menu-item"><a href="group-017.html" class="pure-menu-link">group-017</a></li>
+                <li class="pure-menu-item"><a href="group-018.html" class="pure-menu-link">group-018</a></li>
+                <li class="pure-menu-item"><a href="group-019.html" class="pure-menu-link">group-019</a></li>
+                <li class="pure-menu-item"><a href="group-020.html" class="pure-menu-link">group-020</a></li>
+                <li class="pure-menu-item"><a href="group-021.html" class="pure-menu-link">group-021</a></li>
+                <li class="pure-menu-item"><a href="group-022.html" class="pure-menu-link">group-022</a></li>
+                <li class="pure-menu-item"><a href="group-023.html" class="pure-menu-link">group-023</a></li>
+                <li class="pure-menu-item"><a href="group-025.html" class="pure-menu-link">group-025</a></li>
+                <li class="pure-menu-item"><a href="group-026.html" class="pure-menu-link">group-026</a></li>
+                <li class="pure-menu-item"><a href="group-027.html" class="pure-menu-link">group-027</a></li>
+                <li class="pure-menu-item"><a href="group-028.html" class="pure-menu-link">group-028</a></li>
+                <li class="pure-menu-item"><a href="group-030.html" class="pure-menu-link">group-030</a></li>
+                <li class="pure-menu-item"><a href="group-031.html" class="pure-menu-link">group-031</a></li>
+                <li class="pure-menu-item"><a href="group-032.html" class="pure-menu-link">group-032</a></li>
+                <li class="pure-menu-item"><a href="group-034.html" class="pure-menu-link">group-034</a></li>
+                <li class="pure-menu-item"><a href="group-035.html" class="pure-menu-link">group-035</a></li>
+                <li class="pure-menu-item"><a href="group-036.html" class="pure-menu-link">group-036</a></li>
+                <li class="pure-menu-item"><a href="group-037.html" class="pure-menu-link">group-037</a></li>
+                <li class="pure-menu-item"><a href="group-038.html" class="pure-menu-link">group-038</a></li>
+                <li class="pure-menu-item"><a href="group-039.html" class="pure-menu-link">group-039</a></li>
+                <li class="pure-menu-heading">Missing</li>
+                <li class="pure-menu-item"><a href="group-005_m.html" class="pure-menu-link">group-005_m</a></li>
+                <li class="pure-menu-item"><a href="group-011_m.html" class="pure-menu-link">group-011_m</a></li>
+                <li class="pure-menu-item"><a href="group-013_m.html" class="pure-menu-link">group-013_m</a></li>
+                <li class="pure-menu-item"><a href="group-014_m.html" class="pure-menu-link">group-014_m</a></li>
+                <li class="pure-menu-item"><a href="group-015_m.html" class="pure-menu-link">group-015_m</a></li>
+                <li class="pure-menu-item"><a href="group-016_m.html" class="pure-menu-link">group-016_m</a></li>
+                <li class="pure-menu-item"><a href="group-017_m.html" class="pure-menu-link">group-017_m</a></li>
+                <li class="pure-menu-item"><a href="group-020_m.html" class="pure-menu-link">group-020_m</a></li>
+                <li class="pure-menu-item"><a href="group-021_m.html" class="pure-menu-link">group-021_m</a></li>
+                <li class="pure-menu-item"><a href="group-022_m.html" class="pure-menu-link">group-022_m</a></li>
+                <li class="pure-menu-item"><a href="group-023_m.html" class="pure-menu-link">group-023_m</a></li>
+                <li class="pure-menu-item"><a href="group-024_m.html" class="pure-menu-link">group-024_m</a></li>
+                <li class="pure-menu-item"><a href="group-025_m.html" class="pure-menu-link">group-025_m</a></li>
+                <li class="pure-menu-item"><a href="group-026_m.html" class="pure-menu-link">group-026_m</a></li>
+                <li class="pure-menu-item"><a href="group-027_m.html" class="pure-menu-link">group-027_m</a></li>
+                <li class="pure-menu-item"><a href="group-028_m.html" class="pure-menu-link">group-028_m</a></li>
+                <li class="pure-menu-item"><a href="group-029_m.html" class="pure-menu-link">group-029_m</a></li>
+                <li class="pure-menu-item"><a href="group-030_m.html" class="pure-menu-link">group-030_m</a></li>
+                <li class="pure-menu-item"><a href="group-033_m.html" class="pure-menu-link">group-033_m</a></li>
+                <li class="pure-menu-item"><a href="group-035_m.html" class="pure-menu-link">group-035_m</a></li>
+                <li class="pure-menu-item"><a href="group-036_m.html" class="pure-menu-link">group-036_m</a></li>
+                <li class="pure-menu-item"><a href="group-037_m.html" class="pure-menu-link">group-037_m</a></li>
+                <li class="pure-menu-heading">Others</li>
+                <li class="pure-menu-item"><a href="high_differences.html" class="pure-menu-link">High diff</a></li>
+                <li class="pure-menu-item">&nbsp;</li>
+                <li class="pure-menu-item">&nbsp;</li>
+            </ul>
+        </div>
+    </div>
+    <div id="main">
+        <div class="header">
+            <h1>Test group #031<br>Stroking
+</h1>
+            <h2>file automatically generated by AmanithVG testsuite</h2>
+        </div>
+        <div class="content">
+            <table class="pure-table pure-table-bordered">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Reference</th>
+                        <th>AmanithVG</th>
+                        <th>RMS</th>
+                        <th>Description</th>
+                        <th>Comment</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>310001</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310001_draw_stroke_00.png" target="_blank"><img src=".\x86\ri\png\310001_draw_stroke_00.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310001_draw_stroke_00.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310001_draw_stroke_00.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test dashed stroke with VG_CAP_BUTT caps and VG_JOIN_BEVEL joins</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>310002</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310002_draw_stroke_01_std_ml.png" target="_blank"><img src=".\x86\ri\png\310002_draw_stroke_01_std_ml.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310002_draw_stroke_01_std_ml.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310002_draw_stroke_01_std_ml.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test dashed stroke with VG_CAP_SQUARE caps and VG_JOIN_MITER joins; miter limit is set to 4.0 (the default one)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>310003</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310003_draw_stroke_01_sml_ml.png" target="_blank"><img src=".\x86\ri\png\310003_draw_stroke_01_sml_ml.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310003_draw_stroke_01_sml_ml.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310003_draw_stroke_01_sml_ml.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test dashed stroke with VG_CAP_SQUARE caps and VG_JOIN_MITER joins; miter limit is set to 0.8 (i.e. much smaller than the default one)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>310004</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310004_draw_stroke_02.png" target="_blank"><img src=".\x86\ri\png\310004_draw_stroke_02.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310004_draw_stroke_02.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310004_draw_stroke_02.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test dashed stroke with VG_CAP_ROUND caps and VG_JOIN_ROUND joins</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>310005</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310005_draw_stroke_03.png" target="_blank"><img src=".\x86\ri\png\310005_draw_stroke_03.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310005_draw_stroke_03.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310005_draw_stroke_03.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test dashed stroke with a big negative VG_STROKE_DASH_PHASE (-1263.0 over a dash pattern with a total lenght of 108.0)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>310006</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310006_draw_stroke_04.png" target="_blank"><img src=".\x86\ri\png\310006_draw_stroke_04.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310006_draw_stroke_04.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310006_draw_stroke_04.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test dashed stroke with a dash pattern having a negative dash entry</td>
+                        <td class="testcomment">According to OpenVG specifications "a dash, or space between dashes, with length less than 0 is treated as having a length of 0"</td>
+                    </tr>
+                    <tr>
+                        <td>310007</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310007_draw_stroke_05.png" target="_blank"><img src=".\x86\ri\png\310007_draw_stroke_05.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310007_draw_stroke_05.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310007_draw_stroke_05.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test dashed stroke on a smooth shape (four cubic Bezier traits); path coordinates (i.e. the control polygon) are specified in CCW order</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>310008</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310008_draw_stroke_05_reversed.png" target="_blank"><img src=".\x86\ri\png\310008_draw_stroke_05_reversed.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310008_draw_stroke_05_reversed.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310008_draw_stroke_05_reversed.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test dashed stroke on a smooth shape (four cubic Bezier traits); path coordinates (i.e. the control polygon) are specified in CW order</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>310009</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310009_draw_stroke_06.png" target="_blank"><img src=".\x86\ri\png\310009_draw_stroke_06.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310009_draw_stroke_06.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310009_draw_stroke_06.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test dashed stroke by specifying a dash pattern containing a long dash value that "covers" a whole sub-path</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>310010</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310010_draw_stroke_07.png" target="_blank"><img src=".\x86\ri\png\310010_draw_stroke_07.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310010_draw_stroke_07.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310010_draw_stroke_07.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test dashed stroke on a path made of two polygons, the first one is closed, the second one is open; VG_STROKE_DASH_PATTERN is (50.0, 50.0, 90.0, 50.0), VG_STROKE_DASH_PHASE is -25.0</td>
+                        <td class="testcomment">This stroke parameters must generate just one join on the second sub-path</td>
+                    </tr>
+                    <tr>
+                        <td>310011</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310011_draw_stroke_08.png" target="_blank"><img src=".\x86\ri\png\310011_draw_stroke_08.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310011_draw_stroke_08.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310011_draw_stroke_08.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test dashed stroke on a path made of two polygons, the first one is closed, the second one is open; VG_STROKE_DASH_PATTERN is (50.0, 50.0, 110.0, 50.0), VG_STROKE_DASH_PHASE is -25.0</td>
+                        <td class="testcomment">This stroke parameters combination must generate just the first two joins on the first sub-path, and it must not generate the join on the closing junction</td>
+                    </tr>
+                    <tr>
+                        <td>310012</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310012_draw_stroke_08_opt.png" target="_blank"><img src=".\x86\ri\png\310012_draw_stroke_08_opt.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310012_draw_stroke_08_opt.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310012_draw_stroke_08_opt.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test dashed stroke on a path made of two polygons, the first one is closed, the second one is open; VG_STROKE_DASH_PATTERN is (50.0, 50.0, 110.0, 50.0), VG_STROKE_DASH_PHASE is -25.0, VG_STROKE_LINE_WIDTH is 2.0</td>
+                        <td class="testcomment">This stroke parameters combination must generate just the first two joins on the first sub-path, and it must not generate the join on the closing junction; the specific small stroke width will test AmanithVG optimizations related to joins generation</td>
+                    </tr>
+                    <tr>
+                        <td>310013</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310013_draw_stroke_09.png" target="_blank"><img src=".\x86\ri\png\310013_draw_stroke_09.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310013_draw_stroke_09.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310013_draw_stroke_09.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test dashed stroke on a path made of two polygons, the first one is closed, the second one is open; VG_STROKE_DASH_PATTERN is (50.0, 50.0, 110.0, 50.0), VG_STROKE_DASH_PHASE is 0.0</td>
+                        <td class="testcomment">This stroke parameters combination must generate just one join on the second sub-path</td>
+                    </tr>
+                    <tr>
+                        <td>310014</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310014_draw_stroke_10.png" target="_blank"><img src=".\x86\ri\png\310014_draw_stroke_10.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310014_draw_stroke_10.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310014_draw_stroke_10.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test dashed stroke on a path made of two polygons, the first one is closed, the second one is open; VG_STROKE_DASH_PATTERN is (50.0, 50.0, 110.0, 50.0), VG_STROKE_DASH_PHASE is 0.0</td>
+                        <td class="testcomment">This stroke parameters combination must generate just the two joins on the first sub-path, one of it on the closing junction</td>
+                    </tr>
+                    <tr>
+                        <td>310015</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310015_draw_stroke_11.png" target="_blank"><img src=".\x86\ri\png\310015_draw_stroke_11.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310015_draw_stroke_11.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310015_draw_stroke_11.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of non-dashed stroke on a smooth shape (four cubic Bezier traits)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>310016</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310016_draw_stroke_12.png" target="_blank"><img src=".\x86\ri\png\310016_draw_stroke_12.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310016_draw_stroke_12.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310016_draw_stroke_12.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of non-dashed thin (VG_STROKE_LINE_WIDTH of 0.5) stroke on a smooth shape (four cubic Bezier traits)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>310017</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310017_draw_stroke_13.png" target="_blank"><img src=".\x86\ri\png\310017_draw_stroke_13.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310017_draw_stroke_13.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310017_draw_stroke_13.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of non-dashed stroke on a sharp shape (a path made of three sub-polygons with acute angles)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>310018</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310018_draw_stroke_14.png" target="_blank"><img src=".\x86\ri\png\310018_draw_stroke_14.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310018_draw_stroke_14.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310018_draw_stroke_14.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test the drawing of non-dashed stroke on two degenerated paths (a cubic Bezier trait and a polygon equivalent representation), whose bounding box has a really small dimension (0.0001), with a big VG_STROKE_LINE_WIDTH (126.0), VG_CAP_BUTT caps, VG_JOIN_ROUND joins</td>
+                        <td class="testcomment">The degeneration is due to the big difference between path dimensions and the stroke with (the ratio is 126 / 0.0001); the test is particularly suitable to verify the robustness of the stroke generator</td>
+                    </tr>
+                    <tr>
+                        <td>310019</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310019_draw_stroke_15.png" target="_blank"><img src=".\x86\ri\png\310019_draw_stroke_15.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310019_draw_stroke_15.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310019_draw_stroke_15.png"/></a></td>
+                        <td><h2> 98%</h2></td>
+                        <td class="testdesc">Test the drawing of non-dashed stroke of a path made of two connected lines, VG_CAP_BUTT caps, VG_JOIN_BEVEL joins; several angles between the two lines are tested</td>
+                        <td class="testcomment">The path has a bounding box of 4x4, the VG_STROKE_LINE_WIDTH is set to 56.0</td>
+                    </tr>
+                    <tr>
+                        <td>310020</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310020_draw_stroke_16.png" target="_blank"><img src=".\x86\ri\png\310020_draw_stroke_16.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310020_draw_stroke_16.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310020_draw_stroke_16.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of non-dashed stroke of a path made of two connected lines, VG_CAP_BUTT caps, VG_JOIN_BEVEL joins; several angles between the two lines are tested</td>
+                        <td class="testcomment">The path has a bounding box of 56x56, the VG_STROKE_LINE_WIDTH is set to 4.0</td>
+                    </tr>
+                    <tr>
+                        <td>310021</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310021_draw_stroke_17.png" target="_blank"><img src=".\x86\ri\png\310021_draw_stroke_17.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310021_draw_stroke_17.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310021_draw_stroke_17.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of non-dashed stroke of a path made of two connected lines, VG_CAP_BUTT caps, VG_JOIN_BEVEL joins; several angles between the two lines are tested</td>
+                        <td class="testcomment">The path has a bounding box of 40x40, the VG_STROKE_LINE_WIDTH is set to 40.0</td>
+                    </tr>
+                    <tr>
+                        <td>310022</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310022_draw_stroke_18.png" target="_blank"><img src=".\x86\ri\png\310022_draw_stroke_18.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310022_draw_stroke_18.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310022_draw_stroke_18.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of non-dashed stroke of an open ellipse arc, with a radius of 2.0 and varying the angle extend from 0 to 422, VG_CAP_BUTT caps, VG_JOIN_BEVEL joins, VG_STROKE_LINE_WIDTH set to 56.0</td>
+                        <td class="testcomment">The test is aimed to verify the correct smooth interpolation on the internal stroking side</td>
+                    </tr>
+                    <tr>
+                        <td>310023</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310023_draw_stroke_19.png" target="_blank"><img src=".\x86\ri\png\310023_draw_stroke_19.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310023_draw_stroke_19.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310023_draw_stroke_19.png"/></a></td>
+                        <td><h2> 98%</h2></td>
+                        <td class="testdesc">Test the drawing of non-dashed stroke of an open ellipse arc, with a radius of 20.0 and varying the angle extend from 0 to 422, VG_CAP_BUTT caps, VG_JOIN_BEVEL joins, VG_STROKE_LINE_WIDTH set to 36.0</td>
+                        <td class="testcomment">The test is aimed to verify the correct smooth interpolation on the internal stroking side</td>
+                    </tr>
+                    <tr>
+                        <td>310024</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310024_draw_stroke_20.png" target="_blank"><img src=".\x86\ri\png\310024_draw_stroke_20.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310024_draw_stroke_20.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310024_draw_stroke_20.png"/></a></td>
+                        <td><h2> 98%</h2></td>
+                        <td class="testdesc">Test the drawing of non-dashed stroke of an open ellipse arc, with a radius of 40.0 and varying the angle extend from 0 to 422, VG_CAP_BUTT caps, VG_JOIN_BEVEL joins, VG_STROKE_LINE_WIDTH set to 16.0</td>
+                        <td class="testcomment">The test is aimed to verify the correct smooth interpolation on the internal stroking side</td>
+                    </tr>
+                    <tr>
+                        <td>310025</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310025_draw_stroke_21.png" target="_blank"><img src=".\x86\ri\png\310025_draw_stroke_21.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310025_draw_stroke_21.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310025_draw_stroke_21.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test the drawing of non-dashed stroke of an open polygon representing the approximation (4 points) of a circle arc (radius of 20.0, angle span of 73 degrees, centered at drawing surface center); VG_STROKE_LINE_WIDTH is 200.0 (i.e. much bigger than polygon geometry), VG_CAP_BUTT caps, VG_JOIN_ROUND joins</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>310026</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310026_draw_stroke_22.png" target="_blank"><img src=".\x86\ri\png\310026_draw_stroke_22.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310026_draw_stroke_22.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310026_draw_stroke_22.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test the drawing of non-dashed stroke of an open polygon representing the approximation (8 points) of a circle arc (radius of 100.0, angle span of 175 degrees, centered at drawing surface center); VG_STROKE_LINE_WIDTH is 300.0, VG_CAP_BUTT caps, VG_JOIN_ROUND joins</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>310027</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310027_draw_stroke_23.png" target="_blank"><img src=".\x86\ri\png\310027_draw_stroke_23.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310027_draw_stroke_23.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310027_draw_stroke_23.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test the drawing of non-dashed stroke of an open polygon representing the approximation (5 points) of a circle arc (radius of 40.0, angle span of 175 degrees, centered at drawing surface center); VG_STROKE_LINE_WIDTH is 100.0, VG_CAP_BUTT caps, VG_JOIN_ROUND joins</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>310028</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310028_draw_stroke_24.png" target="_blank"><img src=".\x86\ri\png\310028_draw_stroke_24.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310028_draw_stroke_24.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310028_draw_stroke_24.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of non-dashed stroke of an open polygon representing the approximation (256 points) of a circle arc (radius of 0.01, angle span of 1141 degrees, centered at drawing surface center); VG_STROKE_LINE_WIDTH is 230.0, VG_CAP_BUTT caps, VG_JOIN_ROUND joins</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>310029</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310029_draw_stroke_25.png" target="_blank"><img src=".\x86\ri\png\310029_draw_stroke_25.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310029_draw_stroke_25.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310029_draw_stroke_25.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of non-dashed stroke of a path made by two smooth sub-paths (each of them consisting of two quadratic Bezier traits), VG_CAP_BUTT caps, VG_JOIN_ROUND joins</td>
+                        <td class="testcomment">The two control polygons are generated in reversed order (i.e. one is CW, the other is CCW)</td>
+                    </tr>
+                    <tr>
+                        <td>310030</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310030_draw_stroke_26.png" target="_blank"><img src=".\x86\ri\png\310030_draw_stroke_26.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310030_draw_stroke_26.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310030_draw_stroke_26.png"/></a></td>
+                        <td><h2>100%</h2></td>
+                        <td class="testdesc">Test the drawing of non-dashed stroke of a path made by one geometric point only (VG_MOVE_TO followed by a VG_LINE_TO degenerated on the same point)</td>
+                        <td class="testcomment">According to OpenVG specifications, "A subpath consisting of a single point is collapsed to a lone vertex, which is marked as an END vertex (for later generation of end caps)"</td>
+                    </tr>
+                    <tr>
+                        <td>310031</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310031_draw_stroke_27.png" target="_blank"><img src=".\x86\ri\png\310031_draw_stroke_27.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310031_draw_stroke_27.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310031_draw_stroke_27.png"/></a></td>
+                        <td><h2> 98%</h2></td>
+                        <td class="testdesc">Test the drawing of a square having 100.0 as dimension, stroke is dashed; VG_STROKE_DASH_PHASE is 100.0 and VG_STROKE_DASH_PATTERN is (100.0, 100.0)</td>
+                        <td class="testcomment">The result must be two vertical stroked lines with round end caps</td>
+                    </tr>
+                    <tr>
+                        <td>310032</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310032_draw_stroke_28.png" target="_blank"><img src=".\x86\ri\png\310032_draw_stroke_28.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310032_draw_stroke_28.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310032_draw_stroke_28.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of a square having 100.0 as dimension, stroke is dashed; VG_STROKE_DASH_PHASE is 100.0 and VG_STROKE_DASH_PATTERN is (50.0, 50.0, 50.0f, 50.0)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>310033</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310033_draw_stroke_29.png" target="_blank"><img src=".\x86\ri\png\310033_draw_stroke_29.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310033_draw_stroke_29.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310033_draw_stroke_29.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of a square having 100.0 as dimension, stroke is dashed; VG_STROKE_DASH_PHASE is 0.0 and VG_STROKE_DASH_PATTERN is (100.0, 200.0)</td>
+                        <td class="testcomment">The result must be an L stroked shape with round end caps</td>
+                    </tr>
+                    <tr>
+                        <td>310034</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310034_draw_stroke_30.png" target="_blank"><img src=".\x86\ri\png\310034_draw_stroke_30.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310034_draw_stroke_30.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310034_draw_stroke_30.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of a square having 100.0 as dimension, stroke is dashed; VG_STROKE_DASH_PHASE is 0.0 and VG_STROKE_DASH_PATTERN is (100.0, 100.0)</td>
+                        <td class="testcomment">The result must be two horizontal stroked lines with round end caps</td>
+                    </tr>
+                    <tr>
+                        <td>310035</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310035_draw_stroke_31.png" target="_blank"><img src=".\x86\ri\png\310035_draw_stroke_31.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310035_draw_stroke_31.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310035_draw_stroke_31.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of a square having 100.0 as dimension, stroke is dashed; VG_STROKE_DASH_PHASE is 200.0 and VG_STROKE_DASH_PATTERN is (100.0, 200.0, 100.0, 100.0)</td>
+                        <td class="testcomment">The result must be two vertical stroked lines with round end caps</td>
+                    </tr>
+                    <tr>
+                        <td>310036</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310036_draw_stroke_32.png" target="_blank"><img src=".\x86\ri\png\310036_draw_stroke_32.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310036_draw_stroke_32.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310036_draw_stroke_32.png"/></a></td>
+                        <td><h2> 98%</h2></td>
+                        <td class="testdesc">Test the drawing of a square having 100.0 as dimension, stroke is dashed; VG_STROKE_DASH_PHASE is 100.0 and VG_STROKE_DASH_PATTERN is (200.0, 100.0, 100.0, 100.0)</td>
+                        <td class="testcomment">The result must be two horizontal stroked lines with round end caps</td>
+                    </tr>
+                    <tr>
+                        <td>310037</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310037_draw_stroke_33.png" target="_blank"><img src=".\x86\ri\png\310037_draw_stroke_33.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310037_draw_stroke_33.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310037_draw_stroke_33.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of a square having 100.0 as dimension, stroke is dashed; VG_STROKE_DASH_PHASE is 100.0 and VG_STROKE_DASH_PATTERN is (1000.0, 100.0)</td>
+                        <td class="testcomment">The result must be the square path stroked as if non-dashed, because the first dash value (1000.0), even updated with the dash phase, is much longer than the entire square length</td>
+                    </tr>
+                    <tr>
+                        <td>310038</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310038_draw_stroke_34_case_0.png" target="_blank"><img src=".\x86\ri\png\310038_draw_stroke_34_case_0.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310038_draw_stroke_34_case_0.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310038_draw_stroke_34_case_0.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of a zig-zag like shape (each edge has a length of 25 or 50), with a VG_STROKE_DASH_PATTERN of (200.0, 200.0), VG_STROKE_DASH_PHASE of -100, 							 VG_CAP_ROUND caps, VG_JOIN_BEVEL joins</td>
+                        <td class="testcomment">By varying the dash phase by a multiple of edge lengths, there will be generated several situations where a dash value will "eat" one or more edges exactly (0 residual); NB: at the end of each generated stroke trait, round caps must be present</td>
+                    </tr>
+                    <tr>
+                        <td>310039</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310039_draw_stroke_34_case_1.png" target="_blank"><img src=".\x86\ri\png\310039_draw_stroke_34_case_1.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310039_draw_stroke_34_case_1.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310039_draw_stroke_34_case_1.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of a zig-zag like shape (each edge has a length of 25 or 50), with a VG_STROKE_DASH_PATTERN of (200.0, 200.0), VG_STROKE_DASH_PHASE of 0, 							 VG_CAP_ROUND caps, VG_JOIN_BEVEL joins</td>
+                        <td class="testcomment">By varying the dash phase by a multiple of edge lengths, there will be generated several situations where a dash value will "eat" one or more edges exactly (0 residual); NB: at the end of each generated stroke trait, round caps must be present</td>
+                    </tr>
+                    <tr>
+                        <td>310040</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310040_draw_stroke_34_case_2.png" target="_blank"><img src=".\x86\ri\png\310040_draw_stroke_34_case_2.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310040_draw_stroke_34_case_2.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310040_draw_stroke_34_case_2.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of a zig-zag like shape (each edge has a length of 25 or 50), with a VG_STROKE_DASH_PATTERN of (200.0, 200.0), VG_STROKE_DASH_PHASE of 100, 							 VG_CAP_ROUND caps, VG_JOIN_BEVEL joins</td>
+                        <td class="testcomment">By varying the dash phase by a multiple of edge lengths, there will be generated several situations where a dash value will "eat" one or more edges exactly (0 residual); NB: at the end of each generated stroke trait, round caps must be present</td>
+                    </tr>
+                    <tr>
+                        <td>310041</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310041_draw_stroke_34_case_3.png" target="_blank"><img src=".\x86\ri\png\310041_draw_stroke_34_case_3.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310041_draw_stroke_34_case_3.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310041_draw_stroke_34_case_3.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of a zig-zag like shape (each edge has a length of 25 or 50), with a VG_STROKE_DASH_PATTERN of (200.0, 200.0), VG_STROKE_DASH_PHASE of 200, 							 VG_CAP_ROUND caps, VG_JOIN_BEVEL joins</td>
+                        <td class="testcomment">By varying the dash phase by a multiple of edge lengths, there will be generated several situations where a dash value will "eat" one or more edges exactly (0 residual); NB: at the end of each generated stroke trait, round caps must be present</td>
+                    </tr>
+                    <tr>
+                        <td>310042</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310042_draw_stroke_34_case_4.png" target="_blank"><img src=".\x86\ri\png\310042_draw_stroke_34_case_4.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310042_draw_stroke_34_case_4.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310042_draw_stroke_34_case_4.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of a zig-zag like shape (each edge has a length of 25 or 50), with a VG_STROKE_DASH_PATTERN of (200.0, 200.0), VG_STROKE_DASH_PHASE of 300, 							 VG_CAP_ROUND caps, VG_JOIN_BEVEL joins</td>
+                        <td class="testcomment">By varying the dash phase by a multiple of edge lengths, there will be generated several situations where a dash value will "eat" one or more edges exactly (0 residual); NB: at the end of each generated stroke trait, round caps must be present</td>
+                    </tr>
+                    <tr>
+                        <td>310043</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310043_draw_stroke_34_case_5.png" target="_blank"><img src=".\x86\ri\png\310043_draw_stroke_34_case_5.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310043_draw_stroke_34_case_5.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310043_draw_stroke_34_case_5.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of a zig-zag like shape (each edge has a length of 25 or 50), with a VG_STROKE_DASH_PATTERN of (200.0, 200.0), VG_STROKE_DASH_PHASE of 400, 							 VG_CAP_ROUND caps, VG_JOIN_BEVEL joins</td>
+                        <td class="testcomment">By varying the dash phase by a multiple of edge lengths, there will be generated several situations where a dash value will "eat" one or more edges exactly (0 residual); NB: at the end of each generated stroke trait, round caps must be present</td>
+                    </tr>
+                    <tr>
+                        <td>310044</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310044_draw_stroke_34_case_6.png" target="_blank"><img src=".\x86\ri\png\310044_draw_stroke_34_case_6.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310044_draw_stroke_34_case_6.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310044_draw_stroke_34_case_6.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of a zig-zag like shape (each edge has a length of 25 or 50), with a VG_STROKE_DASH_PATTERN of (200.0, 200.0), VG_STROKE_DASH_PHASE of 500, 							 VG_CAP_ROUND caps, VG_JOIN_BEVEL joins</td>
+                        <td class="testcomment">By varying the dash phase by a multiple of edge lengths, there will be generated several situations where a dash value will "eat" one or more edges exactly (0 residual); NB: at the end of each generated stroke trait, round caps must be present</td>
+                    </tr>
+                    <tr>
+                        <td>310045</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310045_draw_stroke_35_case_0.png" target="_blank"><img src=".\x86\ri\png\310045_draw_stroke_35_case_0.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310045_draw_stroke_35_case_0.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310045_draw_stroke_35_case_0.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of a zig-zag like shape (each edge has a length of 25 or 50), with a VG_STROKE_DASH_PATTERN of (200.0, 200.0), VG_STROKE_DASH_PHASE of -150, 							 VG_CAP_ROUND caps, VG_JOIN_BEVEL joins</td>
+                        <td class="testcomment">By varying the dash phase by a multiple of edge lengths, there will be generated several situations where a dash value will "eat" one or more edges exactly (0 residual); NB: at the end of each generated stroke trait, round caps must be present</td>
+                    </tr>
+                    <tr>
+                        <td>310046</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310046_draw_stroke_35_case_1.png" target="_blank"><img src=".\x86\ri\png\310046_draw_stroke_35_case_1.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310046_draw_stroke_35_case_1.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310046_draw_stroke_35_case_1.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of a zig-zag like shape (each edge has a length of 25 or 50), with a VG_STROKE_DASH_PATTERN of (200.0, 200.0), VG_STROKE_DASH_PHASE of -50, 							 VG_CAP_ROUND caps, VG_JOIN_BEVEL joins</td>
+                        <td class="testcomment">By varying the dash phase by a multiple of edge lengths, there will be generated several situations where a dash value will "eat" one or more edges exactly (0 residual); NB: at the end of each generated stroke trait, round caps must be present</td>
+                    </tr>
+                    <tr>
+                        <td>310047</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310047_draw_stroke_35_case_2.png" target="_blank"><img src=".\x86\ri\png\310047_draw_stroke_35_case_2.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310047_draw_stroke_35_case_2.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310047_draw_stroke_35_case_2.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of a zig-zag like shape (each edge has a length of 25 or 50), with a VG_STROKE_DASH_PATTERN of (200.0, 200.0), VG_STROKE_DASH_PHASE of 50, 							 VG_CAP_ROUND caps, VG_JOIN_BEVEL joins</td>
+                        <td class="testcomment">By varying the dash phase by a multiple of edge lengths, there will be generated several situations where a dash value will "eat" one or more edges exactly (0 residual); NB: at the end of each generated stroke trait, round caps must be present</td>
+                    </tr>
+                    <tr>
+                        <td>310048</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310048_draw_stroke_35_case_3.png" target="_blank"><img src=".\x86\ri\png\310048_draw_stroke_35_case_3.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310048_draw_stroke_35_case_3.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310048_draw_stroke_35_case_3.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of a zig-zag like shape (each edge has a length of 25 or 50), with a VG_STROKE_DASH_PATTERN of (200.0, 200.0), VG_STROKE_DASH_PHASE of 150, 							 VG_CAP_ROUND caps, VG_JOIN_BEVEL joins</td>
+                        <td class="testcomment">By varying the dash phase by a multiple of edge lengths, there will be generated several situations where a dash value will "eat" one or more edges exactly (0 residual); NB: at the end of each generated stroke trait, round caps must be present</td>
+                    </tr>
+                    <tr>
+                        <td>310049</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310049_draw_stroke_35_case_4.png" target="_blank"><img src=".\x86\ri\png\310049_draw_stroke_35_case_4.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310049_draw_stroke_35_case_4.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310049_draw_stroke_35_case_4.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of a zig-zag like shape (each edge has a length of 25 or 50), with a VG_STROKE_DASH_PATTERN of (200.0, 200.0), VG_STROKE_DASH_PHASE of 250, 							 VG_CAP_ROUND caps, VG_JOIN_BEVEL joins</td>
+                        <td class="testcomment">By varying the dash phase by a multiple of edge lengths, there will be generated several situations where a dash value will "eat" one or more edges exactly (0 residual); NB: at the end of each generated stroke trait, round caps must be present</td>
+                    </tr>
+                    <tr>
+                        <td>310050</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310050_draw_stroke_35_case_5.png" target="_blank"><img src=".\x86\ri\png\310050_draw_stroke_35_case_5.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310050_draw_stroke_35_case_5.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310050_draw_stroke_35_case_5.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of a zig-zag like shape (each edge has a length of 25 or 50), with a VG_STROKE_DASH_PATTERN of (200.0, 200.0), VG_STROKE_DASH_PHASE of 350, 							 VG_CAP_ROUND caps, VG_JOIN_BEVEL joins</td>
+                        <td class="testcomment">By varying the dash phase by a multiple of edge lengths, there will be generated several situations where a dash value will "eat" one or more edges exactly (0 residual); NB: at the end of each generated stroke trait, round caps must be present</td>
+                    </tr>
+                    <tr>
+                        <td>310051</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310051_draw_stroke_35_case_6.png" target="_blank"><img src=".\x86\ri\png\310051_draw_stroke_35_case_6.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310051_draw_stroke_35_case_6.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310051_draw_stroke_35_case_6.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of a zig-zag like shape (each edge has a length of 25 or 50), with a VG_STROKE_DASH_PATTERN of (200.0, 200.0), VG_STROKE_DASH_PHASE of 450, 							 VG_CAP_ROUND caps, VG_JOIN_BEVEL joins</td>
+                        <td class="testcomment">By varying the dash phase by a multiple of edge lengths, there will be generated several situations where a dash value will "eat" one or more edges exactly (0 residual); NB: at the end of each generated stroke trait, round caps must be present</td>
+                    </tr>
+                    <tr>
+                        <td>310052</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310052_draw_stroke_36.png" target="_blank"><img src=".\x86\ri\png\310052_draw_stroke_36.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310052_draw_stroke_36.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310052_draw_stroke_36.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of a path made by two sub-contours, the second one constisting in one geometric point only (a VG_MOVE_TO followed by a VG_CLOSE_PATH)</td>
+                        <td class="testcomment">The lone point must result not stroked</td>
+                    </tr>
+                    <tr>
+                        <td>310053</td>
+                        <td class="imgcell"><a href=".\x86\ri\png\310053_draw_stroke_37.png" target="_blank"><img src=".\x86\ri\png\310053_draw_stroke_37.png"/></a></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\310053_draw_stroke_37.png" target="_blank"><img src=".\x86_64\sre\standalone\png\310053_draw_stroke_37.png"/></a></td>
+                        <td><h2> 99%</h2></td>
+                        <td class="testdesc">Test the drawing of a path made by two squares (edge length is 100.0), with a VG_STROKE_DASH_PATTERN of (30.0, 45.0), VG_STROKE_DASH_PHASE of 20.0, VG_STROKE_DASH_PHASE_RESET enabled</td>
+                        <td class="testcomment">The test is aimed to verify the correct implementation of the VG_STROKE_DASH_PHASE_RESET behaviour</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div id="footer">(C) 2004-2019 Mazatech, Srl - VAT ID IT03498460405 - All rights reserved</div>
+<script src="js/ui.js"></script>
+</body>
+</html>

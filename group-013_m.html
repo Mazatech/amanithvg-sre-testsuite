@@ -1,0 +1,592 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AmanithVG testsuite">
+    <title>AmanithVG testsuite</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/side-menu.css">
+    <!--<![endif]-->
+    <link rel="stylesheet" href="css/layouts/report.css">
+</head>
+<body>
+<div id="layout">
+    <a href="#menu" id="menuLink" class="menu-link">
+        <span></span>
+    </a>
+    <div id="menu">
+        <div class="pure-menu">
+            <a class="pure-menu-heading" href="index.html">AmanithVG<br>Test suite</a>
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="group-005.html" class="pure-menu-link">group-005</a></li>
+                <li class="pure-menu-item"><a href="group-006.html" class="pure-menu-link">group-006</a></li>
+                <li class="pure-menu-item"><a href="group-009.html" class="pure-menu-link">group-009</a></li>
+                <li class="pure-menu-item"><a href="group-010.html" class="pure-menu-link">group-010</a></li>
+                <li class="pure-menu-item"><a href="group-011.html" class="pure-menu-link">group-011</a></li>
+                <li class="pure-menu-item"><a href="group-012.html" class="pure-menu-link">group-012</a></li>
+                <li class="pure-menu-item"><a href="group-013.html" class="pure-menu-link">group-013</a></li>
+                <li class="pure-menu-item"><a href="group-014.html" class="pure-menu-link">group-014</a></li>
+                <li class="pure-menu-item"><a href="group-015.html" class="pure-menu-link">group-015</a></li>
+                <li class="pure-menu-item"><a href="group-017.html" class="pure-menu-link">group-017</a></li>
+                <li class="pure-menu-item"><a href="group-018.html" class="pure-menu-link">group-018</a></li>
+                <li class="pure-menu-item"><a href="group-019.html" class="pure-menu-link">group-019</a></li>
+                <li class="pure-menu-item"><a href="group-020.html" class="pure-menu-link">group-020</a></li>
+                <li class="pure-menu-item"><a href="group-021.html" class="pure-menu-link">group-021</a></li>
+                <li class="pure-menu-item"><a href="group-022.html" class="pure-menu-link">group-022</a></li>
+                <li class="pure-menu-item"><a href="group-023.html" class="pure-menu-link">group-023</a></li>
+                <li class="pure-menu-item"><a href="group-025.html" class="pure-menu-link">group-025</a></li>
+                <li class="pure-menu-item"><a href="group-026.html" class="pure-menu-link">group-026</a></li>
+                <li class="pure-menu-item"><a href="group-027.html" class="pure-menu-link">group-027</a></li>
+                <li class="pure-menu-item"><a href="group-028.html" class="pure-menu-link">group-028</a></li>
+                <li class="pure-menu-item"><a href="group-030.html" class="pure-menu-link">group-030</a></li>
+                <li class="pure-menu-item"><a href="group-031.html" class="pure-menu-link">group-031</a></li>
+                <li class="pure-menu-item"><a href="group-032.html" class="pure-menu-link">group-032</a></li>
+                <li class="pure-menu-item"><a href="group-034.html" class="pure-menu-link">group-034</a></li>
+                <li class="pure-menu-item"><a href="group-035.html" class="pure-menu-link">group-035</a></li>
+                <li class="pure-menu-item"><a href="group-036.html" class="pure-menu-link">group-036</a></li>
+                <li class="pure-menu-item"><a href="group-037.html" class="pure-menu-link">group-037</a></li>
+                <li class="pure-menu-item"><a href="group-038.html" class="pure-menu-link">group-038</a></li>
+                <li class="pure-menu-item"><a href="group-039.html" class="pure-menu-link">group-039</a></li>
+                <li class="pure-menu-heading">Missing</li>
+                <li class="pure-menu-item"><a href="group-005_m.html" class="pure-menu-link">group-005_m</a></li>
+                <li class="pure-menu-item"><a href="group-011_m.html" class="pure-menu-link">group-011_m</a></li>
+                <li class="pure-menu-item"><a href="group-013_m.html" class="pure-menu-link">group-013_m</a></li>
+                <li class="pure-menu-item"><a href="group-014_m.html" class="pure-menu-link">group-014_m</a></li>
+                <li class="pure-menu-item"><a href="group-015_m.html" class="pure-menu-link">group-015_m</a></li>
+                <li class="pure-menu-item"><a href="group-016_m.html" class="pure-menu-link">group-016_m</a></li>
+                <li class="pure-menu-item"><a href="group-017_m.html" class="pure-menu-link">group-017_m</a></li>
+                <li class="pure-menu-item"><a href="group-020_m.html" class="pure-menu-link">group-020_m</a></li>
+                <li class="pure-menu-item"><a href="group-021_m.html" class="pure-menu-link">group-021_m</a></li>
+                <li class="pure-menu-item"><a href="group-022_m.html" class="pure-menu-link">group-022_m</a></li>
+                <li class="pure-menu-item"><a href="group-023_m.html" class="pure-menu-link">group-023_m</a></li>
+                <li class="pure-menu-item"><a href="group-024_m.html" class="pure-menu-link">group-024_m</a></li>
+                <li class="pure-menu-item"><a href="group-025_m.html" class="pure-menu-link">group-025_m</a></li>
+                <li class="pure-menu-item"><a href="group-026_m.html" class="pure-menu-link">group-026_m</a></li>
+                <li class="pure-menu-item"><a href="group-027_m.html" class="pure-menu-link">group-027_m</a></li>
+                <li class="pure-menu-item"><a href="group-028_m.html" class="pure-menu-link">group-028_m</a></li>
+                <li class="pure-menu-item"><a href="group-029_m.html" class="pure-menu-link">group-029_m</a></li>
+                <li class="pure-menu-item"><a href="group-030_m.html" class="pure-menu-link">group-030_m</a></li>
+                <li class="pure-menu-item"><a href="group-033_m.html" class="pure-menu-link">group-033_m</a></li>
+                <li class="pure-menu-item"><a href="group-035_m.html" class="pure-menu-link">group-035_m</a></li>
+                <li class="pure-menu-item"><a href="group-036_m.html" class="pure-menu-link">group-036_m</a></li>
+                <li class="pure-menu-item"><a href="group-037_m.html" class="pure-menu-link">group-037_m</a></li>
+                <li class="pure-menu-heading">Others</li>
+                <li class="pure-menu-item"><a href="high_differences.html" class="pure-menu-link">High diff</a></li>
+                <li class="pure-menu-item">&nbsp;</li>
+                <li class="pure-menu-item">&nbsp;</li>
+            </ul>
+        </div>
+    </div>
+    <div id="main">
+        <div class="header">
+            <h1>Test group #013-missing<br>Path drawing, color paint
+</h1>
+            <h2>file automatically generated by AmanithVG testsuite</h2>
+        </div>
+        <div class="content">
+            <table class="pure-table pure-table-bordered">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Reference</th>
+                        <th>AmanithVG</th>
+                        <th>RMS</th>
+                        <th>Description</th>
+                        <th>Comment</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>130013</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130013_draw_path_color_Clear.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130013_draw_path_color_Clear.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_CLEAR_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130014</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130014_draw_path_color_Dst.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130014_draw_path_color_Dst.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_DST_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130015</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130015_draw_path_color_SrcOut.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130015_draw_path_color_SrcOut.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_SRC_OUT_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130016</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130016_draw_path_color_DstOut.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130016_draw_path_color_DstOut.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_DST_OUT_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130017</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130017_draw_path_color_SrcAtop.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130017_draw_path_color_SrcAtop.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_SRC_ATOP_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130018</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130018_draw_path_color_SrcAtop_patch_to_SrcIn.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130018_draw_path_color_SrcAtop_patch_to_SrcIn.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_SRC_ATOP_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment">For this special case, VG_PAINT_COLOR has been set with a full opaque alpha value, so that VG_BLEND_SRC_ATOP_MZT blend will be equivalent to a VG_BLEND_SRC_IN operation. This is an optimization, because VG_BLEND_SRC_IN blend equation is faster than VG_BLEND_SRC_ATOP_MZT</td>
+                    </tr>
+                    <tr>
+                        <td>130019</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130019_draw_path_color_DstAtop.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130019_draw_path_color_DstAtop.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_DST_ATOP_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130020</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130020_draw_path_color_Xor.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130020_draw_path_color_Xor.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_XOR_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130021</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130021_draw_path_color_Xor_patch_to_SrcOut.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130021_draw_path_color_Xor_patch_to_SrcOut.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_XOR_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment">For this special case, VG_PAINT_COLOR has been set with a full opaque alpha value, so that VG_BLEND_XOR_MZT blend will be equivalent to a VG_BLEND_SRC_OUT_MZT operation. This is an optimization, because VG_BLEND_SRC_OUT_MZT blend equation is faster than VG_BLEND_XOR_MZT</td>
+                    </tr>
+                    <tr>
+                        <td>130022</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130022_draw_path_color_Overlay.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130022_draw_path_color_Overlay.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_OVERLAY_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130023</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130023_draw_path_color_ColorDodge.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130023_draw_path_color_ColorDodge.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_COLOR_DODGE_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130024</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130024_draw_path_color_ColorBurn.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130024_draw_path_color_ColorBurn.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_COLOR_BURN_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130025</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130025_draw_path_color_HardLight.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130025_draw_path_color_HardLight.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_HARD_LIGHT_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130026</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130026_draw_path_color_SoftLight.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130026_draw_path_color_SoftLight.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_SOFT_LIGHT_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130027</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130027_draw_path_color_SoftLight_all_branches.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130027_draw_path_color_SoftLight_all_branches.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_SOFT_LIGHT_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment">For this special case, VG_PAINT_COLOR and VG_CLEAR_COLOR have been set such that all execution branches of VG_BLEND_SOFT_LIGHT_MZT equation are covered (red, green, blue channels), specific for alpha-premultiplied drawing surfaces</td>
+                    </tr>
+                    <tr>
+                        <td>130028</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130028_draw_path_color_Difference.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130028_draw_path_color_Difference.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_DIFFERENCE_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130029</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130029_draw_path_color_Exclusion.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130029_draw_path_color_Exclusion.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_EXCLUSION_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130040</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130040_draw_path_color_Clear_mask.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130040_draw_path_color_Clear_mask.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_CLEAR_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130041</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130041_draw_path_color_Dst_mask.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130041_draw_path_color_Dst_mask.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_DST_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130042</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130042_draw_path_color_SrcOut_mask.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130042_draw_path_color_SrcOut_mask.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_SRC_OUT_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130043</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130043_draw_path_color_DstOut_mask.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130043_draw_path_color_DstOut_mask.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_DST_OUT_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130044</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130044_draw_path_color_SrcAtop_mask.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130044_draw_path_color_SrcAtop_mask.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_SRC_ATOP_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130045</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130045_draw_path_color_DstAtop_mask.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130045_draw_path_color_DstAtop_mask.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_DST_ATOP_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130046</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130046_draw_path_color_Xor_mask.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130046_draw_path_color_Xor_mask.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_XOR_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130047</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130047_draw_path_color_Overlay_mask.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130047_draw_path_color_Overlay_mask.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_OVERLAY_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130048</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130048_draw_path_color_ColorDodge_mask.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130048_draw_path_color_ColorDodge_mask.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_COLOR_DODGE_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130049</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130049_draw_path_color_ColorBurn_mask.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130049_draw_path_color_ColorBurn_mask.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_COLOR_BURN_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130050</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130050_draw_path_color_HardLight_mask.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130050_draw_path_color_HardLight_mask.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_HARD_LIGHT_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130051</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130051_draw_path_color_SoftLight_mask.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130051_draw_path_color_SoftLight_mask.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_SOFT_LIGHT_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130052</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130052_draw_path_color_SoftLight_mask_all_branches.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130052_draw_path_color_SoftLight_mask_all_branches.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_SOFT_LIGHT_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment">For this special case, VG_PAINT_COLOR and VG_CLEAR_COLOR have been set such that all execution branches of VG_BLEND_SOFT_LIGHT_MZT equation are covered (red, green, blue channels) in conjunction with enabled VG_MASKING</td>
+                    </tr>
+                    <tr>
+                        <td>130053</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130053_draw_path_color_Difference_mask.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130053_draw_path_color_Difference_mask.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_DIFFERENCE_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130054</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130054_draw_path_color_Exclusion_mask.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130054_draw_path_color_Exclusion_mask.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_EXCLUSION_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130065</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130065_draw_path_color_Clear_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130065_draw_path_color_Clear_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_CLEAR_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130066</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130066_draw_path_color_Dst_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130066_draw_path_color_Dst_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_DST_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130067</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130067_draw_path_color_SrcOut_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130067_draw_path_color_SrcOut_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_SRC_OUT_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130068</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130068_draw_path_color_DstOut_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130068_draw_path_color_DstOut_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_DST_OUT_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130069</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130069_draw_path_color_SrcAtop_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130069_draw_path_color_SrcAtop_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_SRC_ATOP_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130070</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130070_draw_path_color_DstAtop_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130070_draw_path_color_DstAtop_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_DST_ATOP_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130071</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130071_draw_path_color_Xor_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130071_draw_path_color_Xor_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_XOR_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130072</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130072_draw_path_color_Overlay_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130072_draw_path_color_Overlay_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_OVERLAY_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130073</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130073_draw_path_color_ColorDodge_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130073_draw_path_color_ColorDodge_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_COLOR_DODGE_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130074</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130074_draw_path_color_ColorBurn_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130074_draw_path_color_ColorBurn_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_COLOR_BURN_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130075</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130075_draw_path_color_HardLight_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130075_draw_path_color_HardLight_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_HARD_LIGHT_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130076</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130076_draw_path_color_SoftLight_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130076_draw_path_color_SoftLight_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_SOFT_LIGHT_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130077</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130077_draw_path_color_Difference_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130077_draw_path_color_Difference_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_DIFFERENCE_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130078</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130078_draw_path_color_Exclusion_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130078_draw_path_color_Exclusion_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_EXCLUSION_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130089</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130089_draw_path_color_Clear_mask_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130089_draw_path_color_Clear_mask_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_CLEAR_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130090</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130090_draw_path_color_Dst_mask_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130090_draw_path_color_Dst_mask_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_DST_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130091</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130091_draw_path_color_SrcOut_mask_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130091_draw_path_color_SrcOut_mask_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_SRC_OUT_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130092</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130092_draw_path_color_DstOut_mask_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130092_draw_path_color_DstOut_mask_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_DST_OUT_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130093</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130093_draw_path_color_SrcAtop_mask_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130093_draw_path_color_SrcAtop_mask_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_SRC_ATOP_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130094</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130094_draw_path_color_DstAtop_mask_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130094_draw_path_color_DstAtop_mask_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_DST_ATOP_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130095</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130095_draw_path_color_Xor_mask_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130095_draw_path_color_Xor_mask_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_XOR_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130096</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130096_draw_path_color_Overlay_mask_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130096_draw_path_color_Overlay_mask_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_OVERLAY_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130097</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130097_draw_path_color_ColorDodge_mask_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130097_draw_path_color_ColorDodge_mask_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_COLOR_DODGE_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130098</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130098_draw_path_color_ColorBurn_mask_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130098_draw_path_color_ColorBurn_mask_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_COLOR_BURN_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130099</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130099_draw_path_color_HardLight_mask_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130099_draw_path_color_HardLight_mask_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_HARD_LIGHT_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130100</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130100_draw_path_color_SoftLight_mask_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130100_draw_path_color_SoftLight_mask_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_SOFT_LIGHT_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130101</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130101_draw_path_color_Difference_mask_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130101_draw_path_color_Difference_mask_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_DIFFERENCE_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>130102</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\130102_draw_path_color_Exclusion_mask_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\130102_draw_path_color_Exclusion_mask_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_COLOR paint, VG_BLEND_EXCLUSION_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div id="footer">(C) 2004-2019 Mazatech, Srl - VAT ID IT03498460405 - All rights reserved</div>
+<script src="js/ui.js"></script>
+</body>
+</html>

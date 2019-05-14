@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AmanithVG testsuite">
+    <title>AmanithVG testsuite</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/side-menu.css">
+    <!--<![endif]-->
+    <link rel="stylesheet" href="css/layouts/report.css">
+</head>
+<body>
+<div id="layout">
+    <a href="#menu" id="menuLink" class="menu-link">
+        <span></span>
+    </a>
+    <div id="menu">
+        <div class="pure-menu">
+            <a class="pure-menu-heading" href="index.html">AmanithVG<br>Test suite</a>
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="group-005.html" class="pure-menu-link">group-005</a></li>
+                <li class="pure-menu-item"><a href="group-006.html" class="pure-menu-link">group-006</a></li>
+                <li class="pure-menu-item"><a href="group-009.html" class="pure-menu-link">group-009</a></li>
+                <li class="pure-menu-item"><a href="group-010.html" class="pure-menu-link">group-010</a></li>
+                <li class="pure-menu-item"><a href="group-011.html" class="pure-menu-link">group-011</a></li>
+                <li class="pure-menu-item"><a href="group-012.html" class="pure-menu-link">group-012</a></li>
+                <li class="pure-menu-item"><a href="group-013.html" class="pure-menu-link">group-013</a></li>
+                <li class="pure-menu-item"><a href="group-014.html" class="pure-menu-link">group-014</a></li>
+                <li class="pure-menu-item"><a href="group-015.html" class="pure-menu-link">group-015</a></li>
+                <li class="pure-menu-item"><a href="group-017.html" class="pure-menu-link">group-017</a></li>
+                <li class="pure-menu-item"><a href="group-018.html" class="pure-menu-link">group-018</a></li>
+                <li class="pure-menu-item"><a href="group-019.html" class="pure-menu-link">group-019</a></li>
+                <li class="pure-menu-item"><a href="group-020.html" class="pure-menu-link">group-020</a></li>
+                <li class="pure-menu-item"><a href="group-021.html" class="pure-menu-link">group-021</a></li>
+                <li class="pure-menu-item"><a href="group-022.html" class="pure-menu-link">group-022</a></li>
+                <li class="pure-menu-item"><a href="group-023.html" class="pure-menu-link">group-023</a></li>
+                <li class="pure-menu-item"><a href="group-025.html" class="pure-menu-link">group-025</a></li>
+                <li class="pure-menu-item"><a href="group-026.html" class="pure-menu-link">group-026</a></li>
+                <li class="pure-menu-item"><a href="group-027.html" class="pure-menu-link">group-027</a></li>
+                <li class="pure-menu-item"><a href="group-028.html" class="pure-menu-link">group-028</a></li>
+                <li class="pure-menu-item"><a href="group-030.html" class="pure-menu-link">group-030</a></li>
+                <li class="pure-menu-item"><a href="group-031.html" class="pure-menu-link">group-031</a></li>
+                <li class="pure-menu-item"><a href="group-032.html" class="pure-menu-link">group-032</a></li>
+                <li class="pure-menu-item"><a href="group-034.html" class="pure-menu-link">group-034</a></li>
+                <li class="pure-menu-item"><a href="group-035.html" class="pure-menu-link">group-035</a></li>
+                <li class="pure-menu-item"><a href="group-036.html" class="pure-menu-link">group-036</a></li>
+                <li class="pure-menu-item"><a href="group-037.html" class="pure-menu-link">group-037</a></li>
+                <li class="pure-menu-item"><a href="group-038.html" class="pure-menu-link">group-038</a></li>
+                <li class="pure-menu-item"><a href="group-039.html" class="pure-menu-link">group-039</a></li>
+                <li class="pure-menu-heading">Missing</li>
+                <li class="pure-menu-item"><a href="group-005_m.html" class="pure-menu-link">group-005_m</a></li>
+                <li class="pure-menu-item"><a href="group-011_m.html" class="pure-menu-link">group-011_m</a></li>
+                <li class="pure-menu-item"><a href="group-013_m.html" class="pure-menu-link">group-013_m</a></li>
+                <li class="pure-menu-item"><a href="group-014_m.html" class="pure-menu-link">group-014_m</a></li>
+                <li class="pure-menu-item"><a href="group-015_m.html" class="pure-menu-link">group-015_m</a></li>
+                <li class="pure-menu-item"><a href="group-016_m.html" class="pure-menu-link">group-016_m</a></li>
+                <li class="pure-menu-item"><a href="group-017_m.html" class="pure-menu-link">group-017_m</a></li>
+                <li class="pure-menu-item"><a href="group-020_m.html" class="pure-menu-link">group-020_m</a></li>
+                <li class="pure-menu-item"><a href="group-021_m.html" class="pure-menu-link">group-021_m</a></li>
+                <li class="pure-menu-item"><a href="group-022_m.html" class="pure-menu-link">group-022_m</a></li>
+                <li class="pure-menu-item"><a href="group-023_m.html" class="pure-menu-link">group-023_m</a></li>
+                <li class="pure-menu-item"><a href="group-024_m.html" class="pure-menu-link">group-024_m</a></li>
+                <li class="pure-menu-item"><a href="group-025_m.html" class="pure-menu-link">group-025_m</a></li>
+                <li class="pure-menu-item"><a href="group-026_m.html" class="pure-menu-link">group-026_m</a></li>
+                <li class="pure-menu-item"><a href="group-027_m.html" class="pure-menu-link">group-027_m</a></li>
+                <li class="pure-menu-item"><a href="group-028_m.html" class="pure-menu-link">group-028_m</a></li>
+                <li class="pure-menu-item"><a href="group-029_m.html" class="pure-menu-link">group-029_m</a></li>
+                <li class="pure-menu-item"><a href="group-030_m.html" class="pure-menu-link">group-030_m</a></li>
+                <li class="pure-menu-item"><a href="group-033_m.html" class="pure-menu-link">group-033_m</a></li>
+                <li class="pure-menu-item"><a href="group-035_m.html" class="pure-menu-link">group-035_m</a></li>
+                <li class="pure-menu-item"><a href="group-036_m.html" class="pure-menu-link">group-036_m</a></li>
+                <li class="pure-menu-item"><a href="group-037_m.html" class="pure-menu-link">group-037_m</a></li>
+                <li class="pure-menu-heading">Others</li>
+                <li class="pure-menu-item"><a href="high_differences.html" class="pure-menu-link">High diff</a></li>
+                <li class="pure-menu-item">&nbsp;</li>
+                <li class="pure-menu-item">&nbsp;</li>
+            </ul>
+        </div>
+    </div>
+    <div id="main">
+        <div class="header">
+            <h1>Test group #014-missing<br>Path drawing, linear gradient paint
+</h1>
+            <h2>file automatically generated by AmanithVG testsuite</h2>
+        </div>
+        <div class="content">
+            <table class="pure-table pure-table-bordered">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Reference</th>
+                        <th>AmanithVG</th>
+                        <th>RMS</th>
+                        <th>Description</th>
+                        <th>Comment</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>140011</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140011_draw_path_lingrad_Clear.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140011_draw_path_lingrad_Clear.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_CLEAR_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140012</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140012_draw_path_lingrad_Dst.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140012_draw_path_lingrad_Dst.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_DST_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140013</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140013_draw_path_lingrad_SrcOut.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140013_draw_path_lingrad_SrcOut.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_SRC_OUT_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140014</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140014_draw_path_lingrad_DstOut.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140014_draw_path_lingrad_DstOut.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_DST_OUT_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140015</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140015_draw_path_lingrad_SrcAtop.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140015_draw_path_lingrad_SrcAtop.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_SRC_ATOP_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140016</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140016_draw_path_lingrad_DstAtop.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140016_draw_path_lingrad_DstAtop.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_DST_ATOP_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140017</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140017_draw_path_lingrad_Xor.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140017_draw_path_lingrad_Xor.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_XOR_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140018</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140018_draw_path_lingrad_Overlay.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140018_draw_path_lingrad_Overlay.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_OVERLAY_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140019</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140019_draw_path_lingrad_ColorDodge.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140019_draw_path_lingrad_ColorDodge.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_COLOR_DODGE_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140020</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140020_draw_path_lingrad_ColorBurn.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140020_draw_path_lingrad_ColorBurn.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_COLOR_BURN_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140021</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140021_draw_path_lingrad_HardLight.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140021_draw_path_lingrad_HardLight.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_HARD_LIGHT_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140022</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140022_draw_path_lingrad_SoftLight.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140022_draw_path_lingrad_SoftLight.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_SOFT_LIGHT_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140023</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140023_draw_path_lingrad_Difference.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140023_draw_path_lingrad_Difference.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_DIFFERENCE_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140024</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140024_draw_path_lingrad_Exclusion.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140024_draw_path_lingrad_Exclusion.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_EXCLUSION_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140035</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140035_draw_path_lingrad_Clear_mask.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140035_draw_path_lingrad_Clear_mask.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_CLEAR_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140036</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140036_draw_path_lingrad_Dst_mask.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140036_draw_path_lingrad_Dst_mask.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_DST_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140037</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140037_draw_path_lingrad_SrcOut_mask.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140037_draw_path_lingrad_SrcOut_mask.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_SRC_OUT_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140038</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140038_draw_path_lingrad_DstOut_mask.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140038_draw_path_lingrad_DstOut_mask.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_DST_OUT_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140039</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140039_draw_path_lingrad_SrcAtop_mask.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140039_draw_path_lingrad_SrcAtop_mask.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_SRC_ATOP_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140040</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140040_draw_path_lingrad_DstAtop_mask.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140040_draw_path_lingrad_DstAtop_mask.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_DST_ATOP_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140041</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140041_draw_path_lingrad_Xor_mask.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140041_draw_path_lingrad_Xor_mask.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_XOR_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140042</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140042_draw_path_lingrad_Overlay_mask.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140042_draw_path_lingrad_Overlay_mask.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_OVERLAY_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140043</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140043_draw_path_lingrad_ColorDodge_mask.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140043_draw_path_lingrad_ColorDodge_mask.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_COLOR_DODGE_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140044</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140044_draw_path_lingrad_ColorBurn_mask.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140044_draw_path_lingrad_ColorBurn_mask.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_COLOR_BURN_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140045</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140045_draw_path_lingrad_HardLight_mask.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140045_draw_path_lingrad_HardLight_mask.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_HARD_LIGHT_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140046</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140046_draw_path_lingrad_SoftLight_mask.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140046_draw_path_lingrad_SoftLight_mask.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_SOFT_LIGHT_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140047</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140047_draw_path_lingrad_Difference_mask.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140047_draw_path_lingrad_Difference_mask.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_DIFFERENCE_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140048</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140048_draw_path_lingrad_Exclusion_mask.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140048_draw_path_lingrad_Exclusion_mask.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_EXCLUSION_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM disabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140059</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140059_draw_path_lingrad_Clear_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140059_draw_path_lingrad_Clear_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_CLEAR_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140060</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140060_draw_path_lingrad_Dst_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140060_draw_path_lingrad_Dst_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_DST_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140061</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140061_draw_path_lingrad_SrcOut_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140061_draw_path_lingrad_SrcOut_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_SRC_OUT_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140062</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140062_draw_path_lingrad_DstOut_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140062_draw_path_lingrad_DstOut_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_DST_OUT_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140063</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140063_draw_path_lingrad_SrcAtop_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140063_draw_path_lingrad_SrcAtop_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_SRC_ATOP_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140064</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140064_draw_path_lingrad_DstAtop_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140064_draw_path_lingrad_DstAtop_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_DST_ATOP_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140065</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140065_draw_path_lingrad_Xor_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140065_draw_path_lingrad_Xor_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_XOR_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140066</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140066_draw_path_lingrad_Overlay_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140066_draw_path_lingrad_Overlay_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_OVERLAY_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140067</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140067_draw_path_lingrad_ColorDodge_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140067_draw_path_lingrad_ColorDodge_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_COLOR_DODGE_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140068</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140068_draw_path_lingrad_ColorBurn_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140068_draw_path_lingrad_ColorBurn_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_COLOR_BURN_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140069</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140069_draw_path_lingrad_HardLight_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140069_draw_path_lingrad_HardLight_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_HARD_LIGHT_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140070</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140070_draw_path_lingrad_SoftLight_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140070_draw_path_lingrad_SoftLight_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_SOFT_LIGHT_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140071</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140071_draw_path_lingrad_Difference_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140071_draw_path_lingrad_Difference_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_DIFFERENCE_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140072</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140072_draw_path_lingrad_Exclusion_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140072_draw_path_lingrad_Exclusion_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_EXCLUSION_MZT blend mode, VG_MASKING disabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140083</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140083_draw_path_lingrad_Clear_mask_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140083_draw_path_lingrad_Clear_mask_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_CLEAR_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140084</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140084_draw_path_lingrad_Dst_mask_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140084_draw_path_lingrad_Dst_mask_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_DST_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140085</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140085_draw_path_lingrad_SrcOut_mask_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140085_draw_path_lingrad_SrcOut_mask_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_SRC_OUT_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140086</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140086_draw_path_lingrad_DstOut_mask_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140086_draw_path_lingrad_DstOut_mask_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_DST_OUT_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140087</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140087_draw_path_lingrad_SrcAtop_mask_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140087_draw_path_lingrad_SrcAtop_mask_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_SRC_ATOP_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140088</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140088_draw_path_lingrad_DstAtop_mask_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140088_draw_path_lingrad_DstAtop_mask_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_DST_ATOP_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140089</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140089_draw_path_lingrad_Xor_mask_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140089_draw_path_lingrad_Xor_mask_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_XOR_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140090</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140090_draw_path_lingrad_Overlay_mask_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140090_draw_path_lingrad_Overlay_mask_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_OVERLAY_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140091</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140091_draw_path_lingrad_ColorDodge_mask_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140091_draw_path_lingrad_ColorDodge_mask_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_COLOR_DODGE_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140092</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140092_draw_path_lingrad_ColorBurn_mask_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140092_draw_path_lingrad_ColorBurn_mask_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_COLOR_BURN_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140093</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140093_draw_path_lingrad_HardLight_mask_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140093_draw_path_lingrad_HardLight_mask_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_HARD_LIGHT_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140094</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140094_draw_path_lingrad_SoftLight_mask_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140094_draw_path_lingrad_SoftLight_mask_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_SOFT_LIGHT_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140095</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140095_draw_path_lingrad_Difference_mask_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140095_draw_path_lingrad_Difference_mask_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_DIFFERENCE_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                    <tr>
+                        <td>140096</td>
+                        <td class="imgcell"></td>
+                        <td class="imgcell"><a href=".\x86_64\sre\standalone\png\140096_draw_path_lingrad_Exclusion_mask_ct.png" target="_blank"><img src=".\x86_64\sre\standalone\png\140096_draw_path_lingrad_Exclusion_mask_ct.png"/></a></td>
+                        <td><h2>N/A</h2></td>
+                        <td class="testdesc">Test vgDrawPath with VG_PAINT_TYPE_LINEAR_GRADIENT paint, VG_BLEND_EXCLUSION_MZT blend mode, VG_MASKING enabled, VG_COLOR_TRANSFORM enabled (alpha-premultiplied drawing surface)</td>
+                        <td class="testcomment"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div id="footer">(C) 2004-2019 Mazatech, Srl - VAT ID IT03498460405 - All rights reserved</div>
+<script src="js/ui.js"></script>
+</body>
+</html>

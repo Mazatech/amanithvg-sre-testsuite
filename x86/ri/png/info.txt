@@ -1,0 +1,55 @@
+GroupDesc|0|Out of memory conditions and error handling (no graphical output)
+GroupDesc|1|EGL-like custom API (no graphical output)
+GroupDesc|2|OpenVG API initialization (no graphical output)
+Vendor|Khronos Group
+Renderer|OpenVG 1.1 Reference Implementation May 13 2008
+Version|1.1
+Extensions|
+ImageData|girl.png|256|256|8
+ImageData|girl_alpha.png|256|256|8
+ImageData|oldman.png|256|256|8
+ImageData|barbara_alpha.png|256|256|8
+ImageData|dice_alpha.png|256|256|8
+ImageData|pattern.png|188|196|1
+ImageData|multiply_alpha.png|256|256|1
+ImageData|stencil_alpha.png|256|256|1
+ImageData|font_bitmap.png|512|512|1
+ImageData|background.png|256|256|8
+GroupDesc|3|Context parameters get/set API functions (no graphical output)
+GroupDesc|4|Matrices related API functions (no graphical output)
+GroupDesc|5|Masking
+GroupDesc|6|Surface clearing
+GroupDesc|7|Paint API functions (no graphical output)
+GroupDesc|8|Path API functions (no graphical output)
+GroupDesc|9|VGU utility
+GroupDesc|10|Images API functions
+GroupDesc|11|Image filters
+GroupDesc|12|Glyphs and fonts
+GroupDesc|13|Path drawing, color paint
+GroupDesc|14|Path drawing, linear gradient paint
+GroupDesc|15|Path drawing, radial gradient paint
+GroupDesc|16|Path drawing, conical gradient paint (AmanithVG only)
+GroupDesc|17|Path drawing, pattern paint
+GroupDesc|18|Image formats conversions
+GroupDesc|19|Image drawing by format
+GroupDesc|20|Image drawing, normal mode
+GroupDesc|21|Image drawing, multiply mode, color paint
+GroupDesc|22|Image drawing, multiply mode, linear gradient paint
+GroupDesc|23|Image drawing, multiply mode, radial gradient paint
+GroupDesc|24|Image drawing, multiply mode, conical gradient paint (AmanithVG only)
+GroupDesc|25|Image drawing, multiply mode, pattern paint
+GroupDesc|26|Image drawing, stencil mode, color paint
+GroupDesc|27|Image drawing, stencil mode, linear gradient paint
+GroupDesc|28|Image drawing, stencil mode, radial gradient paint
+GroupDesc|29|Image drawing, stencil mode, conical gradient paint (AmanithVG only)
+GroupDesc|30|Image drawing, stencil mode, pattern paint
+GroupDesc|31|Stroking
+GroupDesc|32|Polygon rasterizers
+GroupDesc|33|Polygon rasterizers extensions (AmanithVG only)
+GroupDesc|34|Bezier and ellipses
+GroupDesc|35|Gradients and color ramps
+GroupDesc|36|Special cases of paint parameters combination
+GroupDesc|37|Alpha-unpremultiplied drawing surfaces
+GroupDesc|38|Scissoring
+GroupDesc|39|Drawing surface pixels reading and writing
+GroupDesc|40|Context handles memory management (no graphical output)
